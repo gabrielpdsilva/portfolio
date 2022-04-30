@@ -12,7 +12,7 @@ export const Row = styled.div`
 export const Title = styled.span`
     font-weight: bold;
     color: #313131;
-    font-size: 22px;
+    font-size: 28px;
 `
 export const Subtitle = styled.p`
     font-style: italic;
