@@ -8,6 +8,7 @@ export const Wrapper = styled.ul`
     background-color: #171717;
     position: fixed;
     width: 100%;
+    text-align: center;
 `
 
 export const Li = styled.li`
