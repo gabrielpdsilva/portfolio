@@ -1,5 +1,5 @@
-import { Footer, Header } from 'components'
-import { Resume, Works, About, Home } from 'sections'
+import { Footer, Header } from 'atoms'
+import { Resume, Works, About, Home } from 'organisms'
 
 function App() {
   return (
