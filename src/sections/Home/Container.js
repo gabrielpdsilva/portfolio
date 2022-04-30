@@ -1,4 +1,4 @@
-export default () => {
+const Container = () => {
     const currentOrganization = {
         link: 'https://delfosim.com/',
         name: 'Delfos Intelligent Maintenance',
@@ -7,3 +7,5 @@ export default () => {
         currentOrganization
     }
 }
+
+export default Container

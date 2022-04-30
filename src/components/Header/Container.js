@@ -1,4 +1,4 @@
-export default () => {
+const Container = () => {
     const headerOptions = [
         {
             href: '#home',
@@ -21,3 +21,5 @@ export default () => {
         headerOptions,
     }
 }
+
+export default Container
