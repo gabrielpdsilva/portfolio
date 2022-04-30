@@ -1,5 +1,6 @@
 import React from 'react'
 import { Wrapper, Title, Subtitle, Link } from './StyleSheet'
+import { Caution } from 'atoms'
 import useContainer from './Container'
 
 const View = () => {
@@ -16,6 +17,7 @@ const View = () => {
                 I'm currently working as a Front-End Developer at <Link href={organizationLink} target="_blank">{organizationName}</Link>.<br/>
                 Let me show you my skills and works!
             </Subtitle>
+            <Caution/>
         </Wrapper>
     )
 }
