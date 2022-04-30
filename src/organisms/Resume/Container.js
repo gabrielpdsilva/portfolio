@@ -21,9 +21,25 @@ const Container = () => {
             description: '',
         },
     ]
+    const resumeData = [
+        {
+            title: {
+                text: 'Work',
+                lineColor: '#42d4f5',
+            },
+            data: workData,
+        },
+        {
+            title: {
+                text: 'Education',
+                lineColor: '#42f5b3',
+            },
+            data: educationData,
+        }
+    ]
+    
     return {
-        workData,
-        educationData,
+        resumeData,
     }
 }
 
