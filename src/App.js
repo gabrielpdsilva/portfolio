@@ -6,9 +6,7 @@ function App() {
     <>
       <Header/>
       <Home/>
-      <About/>
       <Resume/>
-      <Works/>
       <Footer/>
     </>
   );

@@ -4,18 +4,18 @@ const Container = () => {
             href: '#home',
             title: 'Home',
         },
-        {
-            href: '#about',
-            title: 'About',
-        },
+        // {
+        //     href: '#about',
+        //     title: 'About',
+        // },
         {
             href: '#resume',
             title: 'Resume',
         },
-        {
-            href: '#works',
-            title: 'Works',
-        },
+        // {
+        //     href: '#works',
+        //     title: 'Works',
+        // },
     ]
     return {
         headerOptions,
