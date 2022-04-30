@@ -1,3 +1,3 @@
-import Detail from './Detail'
+import Section from './Section'
 
-export { Detail }
+export { Section }

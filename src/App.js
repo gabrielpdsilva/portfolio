@@ -1,5 +1,5 @@
 import { Footer, Header } from 'atoms'
-import { Resume, Works, About, Home } from 'organisms'
+import { Resume, Home } from 'organisms'
 
 function App() {
   return (

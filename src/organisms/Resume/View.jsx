@@ -1,5 +1,5 @@
 import React from 'react'
-import { Detail } from 'molecules'
+import { Section } from 'molecules'
 import useContainer from './Container'
 
 const View = () => {
@@ -7,7 +7,7 @@ const View = () => {
     return (
         <section id='resume'>
             {resumeData.map((data, index) =>
-                <Detail key={index} title={data.title} data={data.data}/>
+                <Section key={index} title={data.title} data={data.data}/>
             )}
         </section>
     )
