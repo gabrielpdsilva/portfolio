@@ -2,7 +2,7 @@ import React from 'react'
 
 const View = () => {
     return (
-        <section id="resume">
+        <section id='home'>
             <div>
                 <p>Home: In progress...</p>
             </div>
