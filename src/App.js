@@ -9,7 +9,7 @@ function App() {
       <Resume/>
       <Footer/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
