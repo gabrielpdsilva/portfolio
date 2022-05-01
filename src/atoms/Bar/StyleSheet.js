@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const MULTIPLE = 5
 
 export const EntireBar = styled.div`
-    margin: 10px;
+    margin-bottom: 12px;
     border-radius: 4px;
     background-color: #ccc;
     width: 500px;

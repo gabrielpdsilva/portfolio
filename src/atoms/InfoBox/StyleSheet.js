@@ -14,6 +14,7 @@ export const Title = styled.span`
     color: #313131;
     font-size: 28px;
 `
+
 export const Subtitle = styled.p`
     font-style: italic;
     color: #6E7881;
