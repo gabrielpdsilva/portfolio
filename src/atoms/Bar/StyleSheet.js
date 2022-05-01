@@ -11,7 +11,7 @@ export const EntireBar = styled.div`
 `
 
 export const FillBar = styled.div`
-    background-color: #313131;
+    background-color: ${props => props.fillColor ?? '#313131'};
     border-radius: 4px 0 0 4px;
     height: 46px;
     width: ${(props) => `${props.value * MULTIPLE}px`}
