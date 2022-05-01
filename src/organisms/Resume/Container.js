@@ -15,9 +15,33 @@ const Container = () => {
     ]
     const educationData = [
         {
-            title: '',
-            subtitle: '',
-            date: '',
+            title: 'FATEC da Zona Leste',
+            subtitle: 'Technologist in System Analysis and Development',
+            date: '2019 - 2022',
+            description: '',
+        },
+        {
+            title: 'FISK Centro de Ensino',
+            subtitle: 'English Idiom Course',
+            date: '2018 - 2020',
+            description: '',
+        },
+        {
+            title: 'ETEC da Zona Leste',
+            subtitle: 'Technician in System Development',
+            date: '2018 - 2019',
+            description: '',
+        },
+        {
+            title: 'NovaMicroway Escola de Profissões',
+            subtitle: 'Vocational Course in Graphic Design',
+            date: '2017 - 2017',
+            description: '',
+        },
+        {
+            title: 'Colégio Galileu Instituto de Educação e Cultura',
+            subtitle: 'High School Level',
+            date: '2006 - 2016',
             description: '',
         },
     ]
@@ -37,7 +61,7 @@ const Container = () => {
             data: educationData,
         }
     ]
-    
+
     return {
         resumeData,
     }
