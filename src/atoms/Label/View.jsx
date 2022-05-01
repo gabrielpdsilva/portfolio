@@ -1,13 +1,10 @@
 import React from 'react'
-import { Text, Line } from './StyleSheet'
+import { Text } from './StyleSheet'
 
 const View = (props = {}) => {
     const { text, lineColor} = props
     return (
-        <div>
-            <Text>{text.toUpperCase()}</Text>
-            <Line color={lineColor}/>
-        </div>
+        <Text lineColor={lineColor}>{text.toUpperCase()}</Text>
     )
 }
 
