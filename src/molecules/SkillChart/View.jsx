@@ -1,14 +1,25 @@
 import React from 'react'
-import { Bar } from 'atoms'
+import { Bar, Label, Divider } from 'atoms'
 import { Title } from './StyleSheet'
+import { Wrapper, Row, ChartsWrapper } from './StyleSheet'
 
 const View = (props = {}) => {
-    const { skill } = props
+    const { skills, title } = props
     return (
-        <>
-            <Title>{skill.title}</Title>
-            <Bar value={skill.value} color={skill.barColor}/>
-        </>            
+        <Wrapper>
+        <Row>
+            <Label text={title.text} lineColor={title.lineColor}/>
+            <ChartsWrapper>
+            {skills.map((skill, index) =>
+            <div key={index}>                
+                <Title>{skill.title}</Title>
+                <Bar value={skill.value} color={skill.barColor}/>
+            </div>
+            )}
+            </ChartsWrapper>
+        </Row>
+        <Divider/>
+    </Wrapper>
     )
 }
 

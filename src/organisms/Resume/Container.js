@@ -62,43 +62,49 @@ const Container = () => {
         }
     ]
 
-    const skills = [
-        {
-            title: 'Git',
-            value: 35,
-            barColor: '#00ff73',
+    const skills = {
+        title: {
+            text: 'Skills',
+            lineColor: 'red',
         },
-        {
-            title: 'React Native',
-            value: 60,
-            barColor: '#00fff2',
-        },
-        {
-            title: 'SQL Server',
-            value: 40,
-            barColor: '#7b00ff',
-        },
-        {
-            title: 'Firebase',
-            value: 40,
-            barColor: '#fffb00',
-        },
-        {
-            title: 'React',
-            value: 60,
-            barColor: '#00aaff',
-        },
-        {
-            title: 'Photoshop',
-            value: 70,
-            barColor: '#9900ff',
-        },
-        {
-            title: 'Java',
-            value: 40,
-            barColor: '#ff7b00',
-        },
-    ]
+        data: [
+            {
+                title: 'Git',
+                value: 35,
+                barColor: '#00ff73',
+            },
+            {
+                title: 'React Native',
+                value: 60,
+                barColor: '#00fff2',
+            },
+            {
+                title: 'SQL Server',
+                value: 40,
+                barColor: '#7b00ff',
+            },
+            {
+                title: 'Firebase',
+                value: 40,
+                barColor: '#fffb00',
+            },
+            {
+                title: 'React',
+                value: 60,
+                barColor: '#00aaff',
+            },
+            {
+                title: 'Photoshop',
+                value: 70,
+                barColor: '#9900ff',
+            },
+            {
+                title: 'Java',
+                value: 40,
+                barColor: '#ff7b00',
+            },
+        ]
+    }
 
     return {
         resumeData,

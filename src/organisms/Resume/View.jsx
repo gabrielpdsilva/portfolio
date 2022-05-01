@@ -9,9 +9,7 @@ const View = () => {
             {resumeData.map((data, index) =>
                 <Section key={index} title={data.title} data={data.data}/>
             )}
-            {skills.map((skill, index) =>
-                <SkillChart key={index} skill={skill}/>
-            )}
+            <SkillChart title={skills.title} skills={skills.data}/>
         </section>
     )
 }
