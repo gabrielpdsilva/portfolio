@@ -1,14 +1,13 @@
-import { useTranslation } from 'react-i18next';
-import { Footer } from '../../components/organisms/Footer';
-import { Section } from '../../components/molecules/Section';
-import { CardsGrid } from '../../components/organisms/CardsGrid';
-import { Overview } from '../../components/organisms/Overview';
-import { FooBar } from '../../components/organisms/FooBar';
-import { Header } from '../../components/organisms/Header';
+import { useTranslation } from 'react-i18next'
+import { Footer } from '../../components/organisms/Footer'
+import { Section } from '../../components/molecules/Section'
+import { CardsGrid } from '../../components/organisms/CardsGrid'
+import { Overview } from '../../components/organisms/Overview'
+import { FooBar } from '../../components/organisms/FooBar'
+import { Header } from '../../components/organisms/Header'
 
-// test
 export function Portfolio() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <div>
       <Header />
@@ -26,5 +25,5 @@ export function Portfolio() {
       </div>
       <Footer />
     </div>
-  );
+  )
 }
