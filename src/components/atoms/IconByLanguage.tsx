@@ -1,9 +1,9 @@
 import { Brazil } from '../icons/flags/Brazil';
 import { UnitedStates } from '../icons/flags/UnitedStates';
-import { Languages } from '../../locale/types';
+import { Language } from '../../locale/types';
 
 type IconByLanguageProps = {
-  language: Languages;
+  language: Language;
 };
 
 export function IconByLanguage({ language }: IconByLanguageProps) {
