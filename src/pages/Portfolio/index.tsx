@@ -18,9 +18,9 @@ export function Portfolio() {
             <CardsGrid />
           </Section>
 
-          <Section title={t('academic.title')}>
+          {/* <Section title={t('academic.title')}>
             <FooBar />
-          </Section>
+          </Section> */}
         </div>
       </div>
       <Footer />

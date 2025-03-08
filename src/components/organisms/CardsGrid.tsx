@@ -7,7 +7,7 @@ export function CardsGrid() {
       <div className="card w-96 h-44 bg-base-100 card-lg shadow-md">
         <div className="card-body">
           <h2 className="card-title font-bold">Foco no valor</h2>
-          <p>Lorem ipsum</p>
+          <p>Meu foco é entregar valor através de entrega contínua e alinhamento dos requisitos.</p>
         </div>
       </div>
 
