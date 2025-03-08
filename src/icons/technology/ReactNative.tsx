@@ -1,4 +1,4 @@
-import { ICON_SIZE } from './constants';
+import { TEC_ICON_SIZE } from '../constants';
 
 export function ReactNative() {
   return (
@@ -6,8 +6,8 @@ export function ReactNative() {
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width={ICON_SIZE}
-      height={ICON_SIZE}
+      width={TEC_ICON_SIZE}
+      height={TEC_ICON_SIZE}
       viewBox="0 0 64 64"
     >
       <linearGradient
