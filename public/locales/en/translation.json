@@ -1,0 +1,12 @@
+{
+  "principles": {
+    "title": "Key principles",
+    "clean_code": {
+      "title": "Clean code",
+      "description": "lorem ipsum"
+    }
+  },
+  "academic": {
+    "title": "Academic trajetory"
+  }
+}
