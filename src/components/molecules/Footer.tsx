@@ -1,6 +1,6 @@
-import { openInNewTab } from '../../../shortcuts';
-import { Github } from '../../icons/social-medias/Github';
-import { StackOverflow } from '../../icons/social-medias/StackOverflow';
+import { openInNewTab } from '../../shortcuts';
+import { Github } from '../icons/social-medias/Github';
+import { StackOverflow } from '../icons/social-medias/StackOverflow';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();

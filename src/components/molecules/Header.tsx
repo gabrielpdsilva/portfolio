@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Languages } from '../../../locale/types';
-import { UnitedStates } from '../../icons/flags/UnitedStates';
-import { Brazil } from '../../icons/flags/Brazil';
-import { IconByLanguage } from '../../atoms/IconByLanguage';
+import { Languages } from '../../locale/types';
+import { UnitedStates } from '../icons/flags/UnitedStates';
+import { Brazil } from '../icons/flags/Brazil';
+import { IconByLanguage } from '../atoms/IconByLanguage';
 
 export function Header() {
   return (
