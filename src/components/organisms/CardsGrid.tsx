@@ -1,7 +1,7 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 export function CardsGrid() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <div className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
       <div className="card w-96 h-44 bg-base-100 card-lg shadow-md">
@@ -39,5 +39,5 @@ export function CardsGrid() {
         </div>
       </div>
     </div>
-  );
+  )
 }

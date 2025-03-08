@@ -1,4 +1,4 @@
-import { TEC_ICON_SIZE } from '../constants';
+import { TEC_ICON_SIZE } from '../constants'
 
 export function NestJs() {
   return (
@@ -31,5 +31,5 @@ export function NestJs() {
         d="M7.85,21.86L7.71,22l0.01-0.14C7.76,21.86,7.81,21.87,7.85,21.86z"
       ></path>
     </svg>
-  );
+  )
 }

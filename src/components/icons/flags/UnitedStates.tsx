@@ -1,4 +1,4 @@
-import { FLAG_ICON_SIZE } from '../constants';
+import { FLAG_ICON_SIZE } from '../constants'
 
 export function UnitedStates() {
   return (
@@ -36,5 +36,5 @@ export function UnitedStates() {
         />
       </g>
     </svg>
-  );
+  )
 }

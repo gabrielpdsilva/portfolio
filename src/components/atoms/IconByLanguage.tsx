@@ -1,16 +1,16 @@
-import { Brazil } from '../icons/flags/Brazil';
-import { UnitedStates } from '../icons/flags/UnitedStates';
-import { Language } from '../../locale/types';
+import { Brazil } from '../icons/flags/Brazil'
+import { UnitedStates } from '../icons/flags/UnitedStates'
+import { Language } from '../../locale/types'
 
 type IconByLanguageProps = {
-  language: Language;
-};
+  language: Language
+}
 
 export function IconByLanguage({ language }: IconByLanguageProps) {
   switch (language) {
     case 'en':
-      return <UnitedStates />;
+      return <UnitedStates />
     default:
-      return <Brazil />;
+      return <Brazil />
   }
 }

@@ -77,5 +77,5 @@ export function FooBar() {
         </p>
       </li>
     </ul>
-  );
+  )
 }

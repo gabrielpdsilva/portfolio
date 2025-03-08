@@ -1,4 +1,4 @@
-import { SOCIAL_MEDIAS_ICON_SIZE } from '../constants';
+import { SOCIAL_MEDIAS_ICON_SIZE } from '../constants'
 
 export function StackOverflow() {
   return (
@@ -39,5 +39,5 @@ export function StackOverflow() {
         transform="rotate(19.785 22.978 25.003)"
       ></path>
     </svg>
-  );
+  )
 }

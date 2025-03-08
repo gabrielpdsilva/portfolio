@@ -1,4 +1,4 @@
-import { TecnologyIconsGrid } from '../molecules/IconsGrid';
+import { TecnologyIconsGrid } from '../molecules/IconsGrid'
 
 export function Overview() {
   return (
@@ -23,5 +23,5 @@ export function Overview() {
       </div>
       <TecnologyIconsGrid />
     </div>
-  );
+  )
 }

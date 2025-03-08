@@ -1,4 +1,4 @@
-import { TEC_ICON_SIZE } from '../constants';
+import { TEC_ICON_SIZE } from '../constants'
 
 export function Firebase() {
   return (
@@ -27,5 +27,5 @@ export function Firebase() {
         d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"
       ></path>
     </svg>
-  );
+  )
 }

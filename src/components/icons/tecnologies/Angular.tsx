@@ -1,4 +1,4 @@
-import { TEC_ICON_SIZE } from '../constants';
+import { TEC_ICON_SIZE } from '../constants'
 
 export function Angular() {
   return (
@@ -27,5 +27,5 @@ export function Angular() {
       <path fill="#bdbdbd" d="M24 24H30V28H24z"></path>
       <path fill="#eee" d="M18 24H24V28H18z"></path>
     </svg>
-  );
+  )
 }

@@ -1,9 +1,9 @@
-import { openInNewTab } from '../../shortcuts';
-import { Github } from '../icons/social-medias/Github';
-import { StackOverflow } from '../icons/social-medias/StackOverflow';
+import { openInNewTab } from '../../shortcuts'
+import { Github } from '../icons/social-medias/Github'
+import { StackOverflow } from '../icons/social-medias/StackOverflow'
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
   return (
     <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
       <aside>
@@ -28,5 +28,5 @@ export function Footer() {
         </div>
       </aside>
     </footer>
-  );
+  )
 }

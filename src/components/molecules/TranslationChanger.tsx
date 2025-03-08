@@ -1,20 +1,20 @@
-import { useTranslation } from 'react-i18next';
-import { Language } from '../../locale/types';
-import { IconByLanguage } from '../atoms/IconByLanguage';
-import { Brazil } from '../icons/flags/Brazil';
-import { UnitedStates } from '../icons/flags/UnitedStates';
+import { useTranslation } from 'react-i18next'
+import { Language } from '../../locale/types'
+import { IconByLanguage } from '../atoms/IconByLanguage'
+import { Brazil } from '../icons/flags/Brazil'
+import { UnitedStates } from '../icons/flags/UnitedStates'
 
 export function TranslationChanger() {
-  const { i18n } = useTranslation();
+  const { i18n } = useTranslation()
 
   function onLanguageClick(language: Language): void {
-    i18n.changeLanguage(language);
-    closeDropdownIfNecessary();
+    i18n.changeLanguage(language)
+    closeDropdownIfNecessary()
   }
 
   function closeDropdownIfNecessary(): void {
     if (document.activeElement instanceof HTMLElement) {
-      document.activeElement.blur();
+      document.activeElement.blur()
     }
   }
 
@@ -40,5 +40,5 @@ export function TranslationChanger() {
         </li>
       </ul>
     </div>
-  );
+  )
 }
