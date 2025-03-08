@@ -2,4 +2,4 @@ pre-commit:
   parallel: true
   commands:
     prettier:
-      run: yarn pretty-quick --staged --ignore-path .gitignore
+      run: yarn prettier --staged --ignore-path .gitignore # not working
