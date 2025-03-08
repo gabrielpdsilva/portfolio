@@ -7,15 +7,22 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint-staged": "lint-staged",
     "preview": "vite preview",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./src",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": [
+      "npm run lint",
+      "npm run format"
+    ]
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.11",
     "daisyui": "^5.0.0",
     "i18next": "^24.2.2",
     "i18next-http-backend": "^3.0.2",
-    "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
@@ -30,7 +37,9 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "lefthook": "^1.11.2",
+    "husky": "9.1.7",
+    "lint-staged": "15.4.3",
+    "prettier": "3.5.3",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
