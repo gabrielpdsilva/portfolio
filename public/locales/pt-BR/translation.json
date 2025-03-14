@@ -1,9 +1,23 @@
 {
+  "overview": {
+    "title": "Gabriel Pimentel",
+    "subtitle": "Desenvolvedor de Software",
+    "detail": "Agregando valor ao mundo através de soluções inteligentes"
+  },
   "principles": {
     "title": "Princípios chave",
-    "clean_code": {
+    "about_valuable_features": {
+      "title": "Foco no valor",
+      "description": "Eu entrego features que agregam valor com base em entregas e validações contínuas com o cliente, com foco no negócio."
+    },
+    "about_clean_code": {
       "title": "Código limpo",
-      "description": "lorem ipsum"
+      "description": "Aplicações bem estruturadas com um design escalável e código flexível."
+    },
+    "about_learning": {
+      "title": "Constante aprendizagem",
+      "description": "“Pode ser que eu não saiba a resposta, mas eu sei como encontrá-la, e a encontrarei.”",
+      "detail": "— Adaptado de À Procura da Felicidade"
     }
   },
   "academic": {

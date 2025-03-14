@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next'
 import { TecnologyIconsGrid } from '../molecules/IconsGrid'
 
 export function Overview() {
+  const { t } = useTranslation()
   return (
     <div>
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -11,14 +13,12 @@ export function Overview() {
         </div>
         <div>
           <h1 className="text-5xl font-bold text-center lg:text-left">
-            Gabriel Pimentel
+            {t('overview.title')}
           </h1>
           <p className="font-bold text-2xl py-6 text-center lg:text-left">
-            Desenvolvedor de Software
+            {t('overview.subtitle')}
           </p>
-          <p className="italic">
-            Agregando valor ao mundo através de soluções tecnológicas
-          </p>
+          <p className="italic">{t('overview.detail')}</p>
         </div>
       </div>
       <TecnologyIconsGrid />

@@ -1,9 +1,23 @@
 {
+  "overview": {
+    "title": "Gabriel Pimentel",
+    "subtitle": "Software Developer",
+    "detail": "Adding value to the world through smart solutions"
+  },
   "principles": {
     "title": "Key principles",
-    "clean_code": {
+    "about_valuable_features": {
+      "title": "Foco no valor",
+      "description": "I create high valuable features based on continuous deliveries and validations with client, focusing on company business core."
+    },
+    "about_clean_code": {
       "title": "Clean code",
-      "description": "lorem ipsum"
+      "description": "Well-structured applications with scalable design and flexible code."
+    },
+    "about_learning": {
+      "title": "Constante aprendizagem",
+      "description": "“I may not know the answer, but I know how to find it, and I will find it.”",
+      "detail": "— Adapted from The Pursuit of Happyness"
     }
   },
   "academic": {
