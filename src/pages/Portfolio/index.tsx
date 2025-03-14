@@ -3,7 +3,7 @@ import { Footer } from '../../components/organisms/Footer'
 import { Section } from '../../components/molecules/Section'
 import { CardsGrid } from '../../components/organisms/CardsGrid'
 import { Overview } from '../../components/organisms/Overview'
-import { FooBar } from '../../components/organisms/FooBar'
+import { List } from '../../components/organisms/List'
 import { Header } from '../../components/organisms/Header'
 
 export function Portfolio() {
@@ -19,7 +19,7 @@ export function Portfolio() {
           </Section>
 
           <Section title={t('academic.title')}>
-            <FooBar />
+            <List />
           </Section>
         </div>
       </div>
