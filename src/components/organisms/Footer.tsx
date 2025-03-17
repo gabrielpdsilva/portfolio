@@ -11,13 +11,15 @@ export function Footer() {
         <p>—</p>
         <div className="flex">
           <div
-            className="hover:cursor-pointer"
+            className="tooltip hover:cursor-pointer"
+            data-tip="GitHub"
             onClick={() => openInNewTab(URLS.GITHUB)}
           >
             <Github />
           </div>
           <div
-            className="hover:cursor-pointer"
+            className="tooltip hover:cursor-pointer"
+            data-tip="Stack Overflow"
             onClick={() => openInNewTab(URLS.STACKOVERFLOW)}
           >
             <StackOverflow />
