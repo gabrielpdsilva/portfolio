@@ -22,7 +22,7 @@ type DescriptionProps = {
   children: ReactNode
 }
 function Description({ children }: DescriptionProps) {
-  return <p>{children}</p>
+  return <p className="text-sm">{children}</p>
 }
 
 Card.Title = Title
