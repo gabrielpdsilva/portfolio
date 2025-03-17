@@ -25,15 +25,20 @@
     "subtitle": "Minhas principais conquistas acadêmicas",
     "technologist_systems_analysis_development": {
       "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-      "subtitle": "FATEC da Zona Leste (2019-2022)"
+      "subtitle": "FATEC da Zona Leste (2019-2022)",
+      "course_conclusion": "TCC: aplicativo baseado em ajuda psicológica, que conecta voluntários a pessoas anônimas com problemas psicológicos.",
+      "certificate": "Adquiri certificado de excelência pelo meu desempenho no curso."
     },
     "english": {
       "title": "Curso de Inglês",
-      "subtitle": "FISK Centro de Ensino (2018-2020)"
+      "subtitle": "FISK Centro de Ensino (2018-2020)",
+      "course_conclusion": "MET (nível B2): aprimorei minhas habilidades no inglês, o que me possibilitou passar no MET (Michigan English Test)."
     },
     "technician_systems_development": {
       "title": "Técnico em Desenvolvimento de Sistemas",
-      "subtitle": "ETEC da Zona Leste (2018 - 2019)"
+      "subtitle": "ETEC da Zona Leste (2018 - 2019)",
+      "course_conclusion": "TCC: um aplicativo para sessões de RPG de mesa.",
+      "certificate": "Adquiri certificado de excelência pelo meu desempenho na turma."
     }
   }
 }

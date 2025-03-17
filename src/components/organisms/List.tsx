@@ -21,9 +21,12 @@ export function List() {
           </div>
         </div>
         <p className="list-col-wrap text-xs">
-          • TCC: aplicativo baseado em ajuda psicológica, que conecta
-          voluntários a pessoas anônimas com problemas psicológicos.
-          <br />• Adquiri certificado de excelência pelo meu desempenho no curso
+          •{' '}
+          {t(
+            'academic.technologist_systems_analysis_development.course_conclusion'
+          )}
+          <br />•{' '}
+          {t('academic.technologist_systems_analysis_development.certificate')}
         </p>
         {/*TODO*/}
         {/* <button className="btn btn-square btn-ghost">
@@ -73,8 +76,7 @@ export function List() {
           </div>
         </div>
         <p className="list-col-wrap text-xs">
-          • MET (nível B2): aprimorei minhas habilidades no inglês, o que me
-          possibilitou passar no MET (Michigan English Test).
+          • {t('academic.english.course_conclusion')}
         </p>
         {/*TODO*/}
         {/* <button className="btn btn-square btn-ghost">
@@ -126,8 +128,8 @@ export function List() {
           </div>
         </div>
         <p className="list-col-wrap text-xs">
-          • TCC: um aplicativo para sessões de RPG de mesa
-          <br />• Adquiri certificado de excelência pelo meu desempenho na turma
+          • {t('academic.technician_systems_development.course_conclusion')}
+          <br />• {t('academic.technician_systems_development.certificate')}
         </p>
       </li>
     </ul>

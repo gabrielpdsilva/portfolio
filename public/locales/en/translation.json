@@ -25,15 +25,20 @@
     "subtitle": "My main academic achievements",
     "technologist_systems_analysis_development": {
       "title": "Technologist in Systems Analysis and Development",
-      "subtitle": "FATEC da Zona Leste (2019-2022)"
+      "subtitle": "FATEC da Zona Leste (2019-2022)",
+      "course_conclusion": "TCC: an application based on psychological help, which connects volunteers to anonymous people with psychological problems.",
+      "certificate": "I received a certificate of excellence for my performance in the course."
     },
     "english": {
       "title": "English Course",
-      "subtitle": "FISK Centro de Ensino (2018-2020)"
+      "subtitle": "FISK Centro de Ensino (2018-2020)",
+      "course_conclusion": "MET (level B2): I improved my English skills, which allowed me to pass the MET (Michigan English Test)."
     },
     "technician_systems_development": {
       "title": "Technician in Systems Development",
-      "subtitle": "ETEC da Zona Leste (2018 - 2019)"
+      "subtitle": "ETEC da Zona Leste (2018 - 2019)",
+      "course_conclusion": "TCC: an application for tabletop RPG sessions.",
+      "certificate": "I received a certificate of excellence for my performance in the class."
     }
   }
 }

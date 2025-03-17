@@ -15,9 +15,10 @@ export function Overview() {
           <h1 className="text-5xl font-bold text-center lg:text-left">
             {t('overview.title')}
           </h1>
-          <p className="font-bold text-2xl py-6 text-center lg:text-left">
+          <div className="font-bold text-2xl py-6 text-center lg:text-left group transition duration-300 text-indigo-400">
             {t('overview.subtitle')}
-          </p>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-indigo-400" />
+          </div>
           <p className="italic">{t('overview.detail')}</p>
         </div>
       </div>
