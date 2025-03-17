@@ -9,33 +9,35 @@ import { ReactNative } from '../icons/tecnologies/ReactNative'
 import { TypeScript } from '../icons/tecnologies/Typescript'
 
 export function TecnologyIconsGrid() {
+  const containerClassName =
+    'tooltip transform transition duration-500 hover:scale-125'
   return (
     <div className="justify-center grid grid-cols-9 sm:flex">
-      <div className="tooltip" data-tip="Git">
+      <div className={containerClassName} data-tip="Git">
         <Git />
       </div>
-      <div className="tooltip" data-tip="JavaScript">
+      <div className={containerClassName} data-tip="JavaScript">
         <JavaScript />
       </div>
-      <div className="tooltip" data-tip="TypeScript">
+      <div className={containerClassName} data-tip="TypeScript">
         <TypeScript />
       </div>
-      <div className="tooltip" data-tip="React">
+      <div className={containerClassName} data-tip="React">
         <React />
       </div>
-      <div className="tooltip" data-tip="React Native">
+      <div className={containerClassName} data-tip="React Native">
         <ReactNative />
       </div>
-      <div className="tooltip" data-tip="NestJs">
+      <div className={containerClassName} data-tip="NestJs">
         <NestJs />
       </div>
-      <div className="tooltip" data-tip="Firebase">
+      <div className={containerClassName} data-tip="Firebase">
         <Firebase />
       </div>
-      <div className="tooltip" data-tip="Postgres">
+      <div className={containerClassName} data-tip="Postgres">
         <Postgres />
       </div>
-      <div className="tooltip" data-tip="Angular">
+      <div className={containerClassName} data-tip="Angular">
         <Angular />
       </div>
     </div>
