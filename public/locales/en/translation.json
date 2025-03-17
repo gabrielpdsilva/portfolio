@@ -21,6 +21,19 @@
     }
   },
   "academic": {
-    "title": "Academic trajetory"
+    "title": "Academic trajetory",
+    "subtitle": "My main academic achievements",
+    "technologist_systems_analysis_development": {
+      "title": "Technologist in Systems Analysis and Development",
+      "subtitle": "FATEC da Zona Leste (2019-2022)"
+    },
+    "english": {
+      "title": "English Course",
+      "subtitle": "FISK Centro de Ensino (2018-2020)"
+    },
+    "technician_systems_development": {
+      "title": "Technician in Systems Development",
+      "subtitle": "ETEC da Zona Leste (2018 - 2019)"
+    }
   }
 }

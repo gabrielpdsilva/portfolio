@@ -12,12 +12,11 @@ export function Portfolio() {
     <div>
       <Header />
       <div className="hero bg-base-200 min-h-screen">
-        <div className="space-y-8">
+        <div className="space-y-8 p-4">
           <Overview />
           <Section title={t('principles.title')}>
             <CardsGrid />
           </Section>
-
           <Section title={t('academic.title')}>
             <List />
           </Section>

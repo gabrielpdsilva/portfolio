@@ -1,8 +1,11 @@
+import { useTranslation } from 'react-i18next'
+
 export function List() {
+  const { t } = useTranslation()
   return (
     <ul className="list bg-base-100 rounded-box shadow-md">
       <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
-        Minhas principais conquistas acadêmicas
+        {t('academic.subtitle')}
       </li>
 
       <li className="list-row">
@@ -11,10 +14,10 @@ export function List() {
         </div>
         <div>
           <div className="font-bold">
-            Tecnólogo em Análise e Desenvolvimento de Sistemas
+            {t('academic.technologist_systems_analysis_development.title')}
           </div>
           <div className="text-xs uppercase font-semibold opacity-60">
-            FATEC da Zona Leste (2019-2022)
+            {t('academic.technologist_systems_analysis_development.subtitle')}
           </div>
         </div>
         <p className="list-col-wrap text-xs">
@@ -64,9 +67,9 @@ export function List() {
           <img className="size-14 rounded-box" src="src/assets/fisk.png" />
         </div>
         <div>
-          <div className="font-bold">Curso de Inglês</div>
+          <div className="font-bold">{t('academic.english.title')}</div>
           <div className="text-xs uppercase font-semibold opacity-60">
-            FISK Centro de Ensino (2018-2020)
+            {t('academic.english.subtitle')}
           </div>
         </div>
         <p className="list-col-wrap text-xs">
@@ -116,10 +119,10 @@ export function List() {
         </div>
         <div>
           <div className="font-bold">
-            Técnico em Desenvolvimento de Sistemas
+            {t('academic.technician_systems_development.title')}
           </div>
           <div className="text-xs uppercase font-semibold opacity-60">
-            ETEC da Zona Leste (2018 - 2019)
+            {t('academic.technician_systems_development.subtitle')}
           </div>
         </div>
         <p className="list-col-wrap text-xs">
