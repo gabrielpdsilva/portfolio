@@ -7,7 +7,7 @@
   "principles": {
     "title": "Key principles",
     "about_valuable_features": {
-      "title": "Foco no valor",
+      "title": "Focus on value",
       "description": "I create high valuable features based on continuous deliveries and validations with client, focusing on company business core."
     },
     "about_clean_code": {
@@ -15,7 +15,7 @@
       "description": "Well-structured applications with scalable design and flexible code."
     },
     "about_learning": {
-      "title": "Constante aprendizagem",
+      "title": "Constant learning",
       "description": "“I may not know the answer, but I know how to find it, and I will find it.”",
       "detail": "— Adapted from The Pursuit of Happyness"
     }
