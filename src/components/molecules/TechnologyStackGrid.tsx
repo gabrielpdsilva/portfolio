@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { ICON_TOOLTIP_CLASSNAME } from '../../constants'
+import { ICON_TOOLTIP_CLASSNAME } from '../../constants/style'
 import { Database } from '../icons/stack/Database'
 import { Mobile } from '../icons/stack/Mobile'
 import { Notebook } from '../icons/stack/Notebook'

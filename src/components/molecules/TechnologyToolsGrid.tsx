@@ -7,7 +7,7 @@ import { NestJs } from '../icons/technologies/NestJs'
 import { Postgres } from '../icons/technologies/Postgres'
 import { ReactNative } from '../icons/technologies/ReactNative'
 import { TypeScript } from '../icons/technologies/TypeScript'
-import { ICON_TOOLTIP_CLASSNAME } from '../../constants'
+import { ICON_TOOLTIP_CLASSNAME } from '../../constants/style'
 
 export function TechnologyToolsGrid() {
   return (
