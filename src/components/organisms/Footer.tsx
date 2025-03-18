@@ -1,6 +1,6 @@
 import { openInNewTab } from '../../shortcuts'
 import { URLS } from '../../specs'
-import { Github } from '../icons/social-medias/Github'
+import { GitHub } from '../icons/social-medias/Github'
 import { StackOverflow } from '../icons/social-medias/StackOverflow'
 
 export function Footer() {
@@ -15,7 +15,7 @@ export function Footer() {
             data-tip="GitHub"
             onClick={() => openInNewTab(URLS.GITHUB)}
           >
-            <Github />
+            <GitHub />
           </div>
           <div
             className="tooltip hover:cursor-pointer"
