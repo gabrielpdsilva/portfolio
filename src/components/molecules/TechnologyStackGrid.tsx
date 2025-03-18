@@ -7,19 +7,19 @@ import { Notebook } from '../icons/stack/Notebook'
 export function TechnologyStackGrid() {
   const { t } = useTranslation()
   return (
-    <div className="justify-center grid grid-cols-3 space-x-1 sm:flex">
+    <div className="flex justify-center space-x-1">
       <div
         className={ICON_TOOLTIP_CLASSNAME}
         data-tip={t('overview.stack_tooltips.mobile')}
       >
-        <Mobile />{' '}
+        <Mobile />
       </div>
 
       <div
         className={ICON_TOOLTIP_CLASSNAME}
         data-tip={t('overview.stack_tooltips.frontend')}
       >
-        <Notebook />{' '}
+        <Notebook />
       </div>
       <div
         className={ICON_TOOLTIP_CLASSNAME}

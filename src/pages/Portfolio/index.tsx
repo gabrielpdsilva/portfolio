@@ -13,7 +13,9 @@ export function Portfolio() {
       <Header />
       <div className="hero bg-base-200 min-h-screen">
         <div className="space-y-8 p-4">
-          <Overview />
+          <div className="flex justify-center">
+            <Overview />
+          </div>
           <Section title={t('principles.title')}>
             <CardsGrid />
           </Section>
