@@ -6,38 +6,37 @@ import { JavaScript } from '../icons/tecnologies/JavaScript'
 import { NestJs } from '../icons/tecnologies/NestJs'
 import { Postgres } from '../icons/tecnologies/Postgres'
 import { ReactNative } from '../icons/tecnologies/ReactNative'
-import { TypeScript } from '../icons/tecnologies/Typescript'
+import { TypeScript } from '../icons/tecnologies/TypeScript'
+import { ICON_TOOLTIP_CLASSNAME } from '../../constants'
 
-export function TecnologyIconsGrid() {
-  const containerClassName =
-    'tooltip transform transition duration-500 hover:scale-125'
+export function TechnologyToolsGrid() {
   return (
     <div className="justify-center grid grid-cols-9 sm:flex">
-      <div className={containerClassName} data-tip="Git">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Git">
         <Git />
       </div>
-      <div className={containerClassName} data-tip="JavaScript">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="JavaScript">
         <JavaScript />
       </div>
-      <div className={containerClassName} data-tip="TypeScript">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="TypeScript">
         <TypeScript />
       </div>
-      <div className={containerClassName} data-tip="React">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="React">
         <React />
       </div>
-      <div className={containerClassName} data-tip="React Native">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="React Native">
         <ReactNative />
       </div>
-      <div className={containerClassName} data-tip="NestJs">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="NestJs">
         <NestJs />
       </div>
-      <div className={containerClassName} data-tip="Firebase">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Firebase">
         <Firebase />
       </div>
-      <div className={containerClassName} data-tip="Postgres">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Postgres">
         <Postgres />
       </div>
-      <div className={containerClassName} data-tip="Angular">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Angular">
         <Angular />
       </div>
     </div>

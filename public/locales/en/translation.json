@@ -2,7 +2,12 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Software Developer",
-    "detail": "Adding value to the world through smart solutions"
+    "detail": "Adding value to the world through smart solutions",
+    "stack_tooltips": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "mobile": "Mobile"
+    }
   },
   "principles": {
     "title": "Key principles",

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import { TecnologyIconsGrid } from '../molecules/IconsGrid'
+import { TechnologyToolsGrid } from '../molecules/TechnologyToolsGrid'
+import { TechnologyStackGrid } from '../molecules/TechnologyStackGrid'
 
 export function Overview() {
   const { t } = useTranslation()
@@ -22,7 +23,10 @@ export function Overview() {
           <p className="italic">{t('overview.detail')}</p>
         </div>
       </div>
-      <TecnologyIconsGrid />
+      <div className="space-y-1">
+        <TechnologyStackGrid />
+        <TechnologyToolsGrid />
+      </div>
     </div>
   )
 }

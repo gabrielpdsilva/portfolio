@@ -2,7 +2,12 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Desenvolvedor de Software",
-    "detail": "Agregando valor ao mundo através de soluções inteligentes"
+    "detail": "Agregando valor ao mundo através de soluções inteligentes",
+    "stack_tooltips": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "mobile": "Mobile"
+    }
   },
   "principles": {
     "title": "Princípios chave",
