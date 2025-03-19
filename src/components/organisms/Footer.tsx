@@ -1,6 +1,6 @@
 import { openInNewTab } from '../../shortcuts'
 import { URLS } from '../../specs'
-import { GitHub } from '../icons/social-medias/Github'
+import { GitHub } from '../icons/social-medias/GitHub'
 import { StackOverflow } from '../icons/social-medias/StackOverflow'
 
 export function Footer() {
