@@ -34,7 +34,6 @@ export function TranslationChanger() {
         </li>
         <li onClick={() => onLanguageClick('en')}>
           <a>
-            {' '}
             <UnitedStates />
           </a>
         </li>

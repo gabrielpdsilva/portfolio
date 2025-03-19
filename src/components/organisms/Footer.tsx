@@ -1,5 +1,5 @@
 import { openInNewTab } from '../../shortcuts'
-import { URLS } from '../../specs'
+import { URLS } from '../../constants/urls'
 import { GitHub } from '../icons/social-medias/GitHub'
 import { StackOverflow } from '../icons/social-medias/StackOverflow'
 
