@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://gabrielpdsilva.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +11,9 @@
     "lint-staged": "lint-staged",
     "preview": "vite preview",
     "format": "prettier --write ./src",
-    "prepare": "husky"
+    "prepare": "husky",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "**/*": [
@@ -36,6 +39,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",

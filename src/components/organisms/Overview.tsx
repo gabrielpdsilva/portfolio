@@ -10,7 +10,7 @@ export function Overview() {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="avatar">
             <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-              <img src="src/assets/avatar-gather.png" />
+              <img src="assets/avatar-gather.png" />
             </div>
           </div>
           <div>

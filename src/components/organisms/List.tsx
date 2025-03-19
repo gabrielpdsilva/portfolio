@@ -10,7 +10,7 @@ export function List() {
 
       <li className="list-row">
         <div>
-          <img className="size-14 rounded-box" src="src/assets/fatec.png" />
+          <img className="size-14 rounded-box" src="assets/fatec.png" />
         </div>
         <div className="space-y-4">
           <div>
@@ -36,7 +36,7 @@ export function List() {
 
       <li className="list-row">
         <div>
-          <img className="size-14 rounded-box" src="src/assets/fisk.png" />
+          <img className="size-14 rounded-box" src="assets/fisk.png" />
         </div>
         <div className="space-y-4">
           <div>
@@ -53,7 +53,7 @@ export function List() {
 
       <li className="list-row">
         <div>
-          <img className="size-14 rounded-box" src="src/assets/etec.png" />
+          <img className="size-14 rounded-box" src="assets/etec.png" />
         </div>
         <div className="space-y-4">
           <div>
