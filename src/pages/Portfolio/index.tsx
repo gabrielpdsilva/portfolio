@@ -19,6 +19,9 @@ export function Portfolio() {
           <Section title={t('principles.title')}>
             <CardsGrid />
           </Section>
+          <Section title={t('highlights.title')}>
+            <CardsGrid />
+          </Section>
           <Section title={t('academic.title')}>
             <List />
           </Section>
