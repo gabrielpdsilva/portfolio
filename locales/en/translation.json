@@ -1,0 +1,49 @@
+{
+  "overview": {
+    "title": "Gabriel Pimentel",
+    "subtitle": "Software Developer",
+    "detail": "Adding value to the world through smart solutions",
+    "stack_tooltips": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "mobile": "Mobile"
+    }
+  },
+  "principles": {
+    "title": "Key principles",
+    "about_valuable_features": {
+      "title": "Focus on value",
+      "description": "I create high valuable features based on continuous deliveries and validations with client, focusing on company business core."
+    },
+    "about_clean_code": {
+      "title": "Clean code",
+      "description": "Well-structured applications with scalable design and flexible code."
+    },
+    "about_learning": {
+      "title": "Constant learning",
+      "description": "“I may not know the answer, but I know how to find it, and I will find it.”",
+      "detail": "— Adapted from The Pursuit of Happyness"
+    }
+  },
+  "academic": {
+    "title": "Academic trajetory",
+    "subtitle": "My main academic achievements",
+    "technologist_systems_analysis_development": {
+      "title": "Technologist in Systems Analysis and Development",
+      "subtitle": "FATEC da Zona Leste (2019-2022)",
+      "course_conclusion": "TCC: an application based on psychological help, which connects volunteers to anonymous people with psychological problems.",
+      "certificate": "I received a certificate of excellence for my performance in the course."
+    },
+    "english": {
+      "title": "English Course",
+      "subtitle": "FISK Centro de Ensino (2018-2020)",
+      "course_conclusion": "MET (level B2): I improved my English skills, which allowed me to pass the MET (Michigan English Test)."
+    },
+    "technician_systems_development": {
+      "title": "Technician in Systems Development",
+      "subtitle": "ETEC da Zona Leste (2018 - 2019)",
+      "course_conclusion": "TCC: an application for tabletop RPG sessions.",
+      "certificate": "I received a certificate of excellence for my performance in the class."
+    }
+  }
+}

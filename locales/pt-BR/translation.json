@@ -1,0 +1,49 @@
+{
+  "overview": {
+    "title": "Gabriel Pimentel",
+    "subtitle": "Desenvolvedor de Software",
+    "detail": "Agregando valor ao mundo através de soluções inteligentes",
+    "stack_tooltips": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "mobile": "Mobile"
+    }
+  },
+  "principles": {
+    "title": "Princípios chave",
+    "about_valuable_features": {
+      "title": "Foco no valor",
+      "description": "Eu entrego features que agregam valor com base em entregas e validações contínuas com o cliente, com foco no negócio."
+    },
+    "about_clean_code": {
+      "title": "Código limpo",
+      "description": "Aplicações bem estruturadas com um design escalável e código flexível."
+    },
+    "about_learning": {
+      "title": "Constante aprendizagem",
+      "description": "“Pode ser que eu não saiba a resposta, mas eu sei como encontrá-la, e a encontrarei.”",
+      "detail": "— Adaptado de À Procura da Felicidade"
+    }
+  },
+  "academic": {
+    "title": "Trajetória acadêmica",
+    "subtitle": "Minhas principais conquistas acadêmicas",
+    "technologist_systems_analysis_development": {
+      "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "subtitle": "FATEC da Zona Leste (2019-2022)",
+      "course_conclusion": "TCC: aplicativo baseado em ajuda psicológica, que conecta voluntários a pessoas anônimas com problemas psicológicos.",
+      "certificate": "Adquiri certificado de excelência pelo meu desempenho no curso."
+    },
+    "english": {
+      "title": "Curso de Inglês",
+      "subtitle": "FISK Centro de Ensino (2018-2020)",
+      "course_conclusion": "MET (nível B2): aprimorei minhas habilidades no inglês, o que me possibilitou passar no MET (Michigan English Test)."
+    },
+    "technician_systems_development": {
+      "title": "Técnico em Desenvolvimento de Sistemas",
+      "subtitle": "ETEC da Zona Leste (2018 - 2019)",
+      "course_conclusion": "TCC: um aplicativo para sessões de RPG de mesa.",
+      "certificate": "Adquiri certificado de excelência pelo meu desempenho na turma."
+    }
+  }
+}
