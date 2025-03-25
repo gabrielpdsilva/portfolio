@@ -1,4 +1,4 @@
-export function Notebook() {
+export function Monitor() {
   return (
     <svg
       className="w-12 h-12 text-base-content"

@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { ICON_TOOLTIP_CLASSNAME } from '../../constants/style'
 import { Database } from '../icons/stack/Database'
 import { Mobile } from '../icons/stack/Mobile'
-import { Notebook } from '../icons/stack/Notebook'
+import { Monitor } from '../icons/stack/Monitor'
 
 export function TechnologyStackGrid() {
   const { t } = useTranslation()
@@ -19,7 +19,7 @@ export function TechnologyStackGrid() {
         className={ICON_TOOLTIP_CLASSNAME}
         data-tip={t('overview.stack_tooltips.frontend')}
       >
-        <Notebook />
+        <Monitor />
       </div>
       <div
         className={ICON_TOOLTIP_CLASSNAME}

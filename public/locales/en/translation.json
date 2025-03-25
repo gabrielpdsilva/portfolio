@@ -27,18 +27,18 @@
   },
   "highlights": {
     "title": "Highlights",
-    "subtitle": "Principais aplicações que desenvolvi",
+    "detail": "Check on store",
     "inspector": {
       "name": "Delfos Inspector",
-      "description": "App gerenciador de ordens de serviço; permite checklist de inspeções e informações como fotografia geolocalizada, áudios e assinatura."
+      "description": "Offline app for filling out inspection checklists."
     },
     "axis": {
       "name": "Axis",
-      "description": "App para pilotos, focado no cadastro de voos (dados do voo, percurso, despesas etc). Funciona offline. Atuei ajudando no app, dashboard e api."
+      "description": "Offline app for pilots, focused on flight registration."
     },
     "vowe": {
       "name": "Vowe Air",
-      "description": "App para agendamento de voos. Fui responsável principalmente pelo app, contudo, ajudei também no desenvolvimento do dashboard e da api."
+      "description": "App for scheduling flights within a monthly hour package."
     }
   },
   "academic": {

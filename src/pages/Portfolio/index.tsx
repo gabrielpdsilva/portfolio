@@ -5,6 +5,7 @@ import { CardsGrid } from '../../components/organisms/CardsGrid'
 import { Overview } from '../../components/organisms/Overview'
 import { List } from '../../components/organisms/List'
 import { Header } from '../../components/organisms/Header'
+import { Highlights } from '../../components/organisms/Highlights'
 
 export function Portfolio() {
   const { t } = useTranslation()
@@ -20,7 +21,7 @@ export function Portfolio() {
             <CardsGrid />
           </Section>
           <Section title={t('highlights.title')}>
-            <CardsGrid />
+            <Highlights />
           </Section>
           <Section title={t('academic.title')}>
             <List />
