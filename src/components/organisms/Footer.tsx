@@ -5,11 +5,10 @@ import { StackOverflow } from '../icons/social-medias/StackOverflow'
 
 export function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
-      <aside className="flex">
+    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content py-2">
+      <aside>
         <p>{getFooterText()}</p>
-        <p>—</p>
-        <div className="flex">
+        <div className="flex gap-2">
           <div
             className="tooltip hover:cursor-pointer"
             data-tip="GitHub"

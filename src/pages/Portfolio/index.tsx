@@ -17,11 +17,11 @@ export function Portfolio() {
           <div className="flex justify-center">
             <Overview />
           </div>
-          <Section title={t('principles.title')}>
-            <CardsGrid />
-          </Section>
           <Section title={t('highlights.title')}>
             <Highlights />
+          </Section>
+          <Section title={t('principles.title')}>
+            <CardsGrid />
           </Section>
           <Section title={t('academic.title')}>
             <List />
