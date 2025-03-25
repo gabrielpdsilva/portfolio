@@ -25,6 +25,22 @@
       "detail": "— Adapted from The Pursuit of Happyness"
     }
   },
+  "highlights": {
+    "title": "Highlights",
+    "detail": "Check on store",
+    "inspector": {
+      "name": "Delfos Inspector",
+      "description": "Offline app for filling out inspection checklists."
+    },
+    "axis": {
+      "name": "Axis",
+      "description": "Offline app for pilots, focused on flight registration."
+    },
+    "vowe": {
+      "name": "Vowe Air",
+      "description": "App for scheduling flights within a monthly hour package."
+    }
+  },
   "academic": {
     "title": "Academic trajetory",
     "subtitle": "My main academic achievements",

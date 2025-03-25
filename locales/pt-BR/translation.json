@@ -25,6 +25,22 @@
       "detail": "— Adaptado de À Procura da Felicidade"
     }
   },
+  "highlights": {
+    "title": "Destaques",
+    "detail": "Ver na loja",
+    "inspector": {
+      "name": "Delfos Inspector",
+      "description": "App offline para preencher checklists de inspeção."
+    },
+    "axis": {
+      "name": "Axis",
+      "description": "App offline para pilotos, focado no cadastro de voos."
+    },
+    "vowe": {
+      "name": "Vowe Air",
+      "description": "App para agendamento de voos dentro de um pacote de horas mensais."
+    }
+  },
   "academic": {
     "title": "Trajetória acadêmica",
     "subtitle": "Minhas principais conquistas acadêmicas",
