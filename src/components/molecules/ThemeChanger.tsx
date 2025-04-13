@@ -2,16 +2,17 @@ import { useState, useEffect } from 'react'
 
 export function ThemeChanger() {
   const [theme, setTheme] = useState('night')
+
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'night' : 'light')
   }
 
-  // initially set the theme and "listen" for changes to apply them to the HTML tag
   useEffect(() => {
     localStorage.setItem('theme', theme)
     const localTheme = localStorage.getItem('theme')
     document.querySelector('html')?.setAttribute('data-theme', localTheme!)
   }, [theme])
+
   return (
     <label className="swap swap-rotate">
       <input

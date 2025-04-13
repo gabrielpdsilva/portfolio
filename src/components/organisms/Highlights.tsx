@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { openInNewTab } from '../../shortcuts'
+import { Card } from '../molecules/Card'
 
 type HighlightCardProps = {
   title: string
@@ -10,20 +11,16 @@ type HighlightCardProps = {
 
 function HighlightCard({ title, subtitle, onClick, src }: HighlightCardProps) {
   const { t } = useTranslation()
+
   return (
-    <div className="max-w-sm rounded-lg border p-5 shadow">
+    <Card>
+      <Card.Title>{title}</Card.Title>
       <img src={src} className="mb-2 rounded-lg" />
-      <h2 className="mb-2 text-2xl font-bold tracking-tight">{title}</h2>
-      <div className="flex flex-col items-start">
-        <p className="mb-3">{subtitle}</p>
-        <button
-          onClick={onClick}
-          className="self-end cursor-pointer rounded-lg bg-indigo-600 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
-        >
-          {t('highlights.detail')}
-        </button>
-      </div>
-    </div>
+      <Card.Description>{subtitle}</Card.Description>
+      <button onClick={onClick} className="self-end btn btn-soft btn-primary">
+        {t('highlights.detail')}
+      </button>
+    </Card>
   )
 }
 
