@@ -1,6 +1,6 @@
 # Portfolio
 
-Installing:
+Installing dependencies:
 
 ```
 npm i
