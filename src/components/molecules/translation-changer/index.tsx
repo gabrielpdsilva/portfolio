@@ -27,14 +27,14 @@ export function TranslationChanger() {
         tabIndex={0}
         className="dropdown-content menu bg-base-100 rounded-box z-1 p-2 shadow-sm"
       >
-        <li onClick={() => onLanguageClick('pt-BR')}>
-          <a>
-            <Brazil />
-          </a>
-        </li>
         <li onClick={() => onLanguageClick('en')}>
           <a>
             <UnitedStates />
+          </a>
+        </li>
+        <li onClick={() => onLanguageClick('pt-BR')}>
+          <a>
+            <Brazil />
           </a>
         </li>
       </ul>
