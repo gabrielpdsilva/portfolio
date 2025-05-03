@@ -3,7 +3,7 @@ import { Theme } from '../types'
 
 export const defaultSettings: Settings = {
   theme: 'night',
-  language: 'pt-BR',
+  language: 'en',
 }
 
 type Settings = {
