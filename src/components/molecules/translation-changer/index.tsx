@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
-import { Language } from '../../../locale/types'
 import { IconByLanguage } from '../../atoms/icon-by-language'
 import { Brazil } from '../../icons/flags/brazil'
 import { UnitedStates } from '../../icons/flags/united-states'
+import { Language } from '../../../types'
 
 export function TranslationChanger() {
   const { i18n } = useTranslation()

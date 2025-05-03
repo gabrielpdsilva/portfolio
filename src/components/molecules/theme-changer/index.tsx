@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
+import { Theme } from '../../../types'
 
 export function ThemeChanger() {
-  const [theme, setTheme] = useState('night')
+  const [theme, setTheme] = useState<Theme>('night')
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'night' : 'light')
