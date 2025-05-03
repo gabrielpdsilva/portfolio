@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import { ICON_TOOLTIP_CLASSNAME } from '../../../constants/styles'
-import { Mobile } from '../../icons/stack/mb'
-import { Monitor } from '../../icons/stack/mt'
-import { Database } from '../../icons/stack/db'
+import { Mobile } from '../../icons/stack/mobile'
+import { Monitor } from '../../icons/stack/monitor'
+import { Database } from '../../icons/stack/database'
 
 export function TechStackGrid() {
   const { t } = useTranslation()

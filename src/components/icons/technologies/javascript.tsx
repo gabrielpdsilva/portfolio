@@ -1,6 +1,6 @@
 import { TEC_ICON_SIZE } from '../constants'
 
-export function JavaScript() {
+export function Javascript() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

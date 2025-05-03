@@ -1,12 +1,12 @@
-import { Angular } from '../../icons/technologies/ang'
-import { Firebase } from '../../icons/technologies/fb'
-import { Git } from '../../icons/technologies/gt'
-import { React } from '../../icons/technologies/r'
-import { JavaScript } from '../../icons/technologies/js'
-import { NestJs } from '../../icons/technologies/nests'
-import { Postgres } from '../../icons/technologies/postg'
+import { Angular } from '../../icons/technologies/angular'
+import { Firebase } from '../../icons/technologies/firebase'
+import { Git } from '../../icons/technologies/git'
+import { React } from '../../icons/technologies/react'
+import { Javascript } from '../../icons/technologies/javascript'
+import { NestJS } from '../../icons/technologies/nestjs'
+import { Postgres } from '../../icons/technologies/postgres'
 import { ReactNative } from '../../icons/technologies/react-native'
-import { TypeScript } from '../../icons/technologies/t'
+import { Typescript } from '../../icons/technologies/typescript'
 import { ICON_TOOLTIP_CLASSNAME } from '../../../constants/styles'
 
 export function TechToolsGrid() {
@@ -16,10 +16,10 @@ export function TechToolsGrid() {
         <Git />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="JavaScript">
-        <JavaScript />
+        <Javascript />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="TypeScript">
-        <TypeScript />
+        <Typescript />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="React">
         <React />
@@ -28,7 +28,7 @@ export function TechToolsGrid() {
         <ReactNative />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="NestJs">
-        <NestJs />
+        <NestJS />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Firebase">
         <Firebase />

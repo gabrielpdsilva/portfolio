@@ -1,6 +1,6 @@
 import { TEC_ICON_SIZE } from '../constants'
 
-export function TypeScript() {
+export function Typescript() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
