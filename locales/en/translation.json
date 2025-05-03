@@ -21,8 +21,19 @@
     },
     "about_learning": {
       "title": "Constant learning",
-      "description": "“I may not know the answer, but I know how to find it, and I will find it.”",
-      "detail": "— Adapted from The Pursuit of Happyness"
+      "description": "“I may not know the answer, but I know how to find it, and I will find it.” — Adapted from The Pursuit of Happyness"
+    },
+    "about_tests": {
+      "title": "Unit testing",
+      "description": "Reliable code is tested code. I treat tests as part of the development process."
+    },
+    "about_ux": {
+      "title": "UX/UI best practices",
+      "description": "Design and usability are as important as functionality—good experiences matter."
+    },
+    "about_principles": {
+      "title": "Principles over technologies",
+      "description": "Trends fade, but engineering principles remain."
     }
   },
   "highlights": {
