@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Card } from '../molecules/Card'
+import { Card } from '../../molecules/card'
 
 export function CardsGrid() {
   const { t } = useTranslation()

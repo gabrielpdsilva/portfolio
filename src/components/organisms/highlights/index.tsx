@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import { openInNewTab } from '../../shortcuts'
-import { Card } from '../molecules/Card'
+import { openInNewTab } from '../../../shortcuts'
+import { Card } from '../../molecules/card'
 
 type HighlightCardProps = {
   title: string

@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next'
-import { Footer } from '../../components/organisms/Footer'
-import { Section } from '../../components/molecules/Section'
-import { CardsGrid } from '../../components/organisms/CardsGrid'
-import { Overview } from '../../components/organisms/Overview'
-import { Academic } from '../../components/organisms/Academic'
-import { Header } from '../../components/organisms/Header'
-import { Highlights } from '../../components/organisms/Highlights'
+import { Footer } from '../../components/organisms/footer'
+import { Section } from '../../components/molecules/section'
+import { CardsGrid } from '../../components/organisms/cards-grid'
+import { Overview } from '../../components/organisms/overview'
+import { Academic } from '../../components/organisms/academic'
+import { Header } from '../../components/organisms/header'
+import { Highlights } from '../../components/organisms/highlights'
 
 export function Portfolio() {
   const { t } = useTranslation()

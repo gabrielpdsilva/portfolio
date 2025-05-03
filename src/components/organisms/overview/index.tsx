@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import { TechnologyToolsGrid } from '../molecules/TechnologyToolsGrid'
-import { TechnologyStackGrid } from '../molecules/TechnologyStackGrid'
+import { TechToolsGrid } from '../../molecules/tech-tools-grid'
+import { TechStackGrid } from '../../molecules/tech-stack-grid'
 
 export function Overview() {
   const { t } = useTranslation()
@@ -25,8 +25,8 @@ export function Overview() {
           </div>
         </div>
         <div className="space-y-1">
-          <TechnologyStackGrid />
-          <TechnologyToolsGrid />
+          <TechStackGrid />
+          <TechToolsGrid />
         </div>
       </div>
     </div>
