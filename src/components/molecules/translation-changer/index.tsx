@@ -1,27 +1,15 @@
-import { useTranslation } from 'react-i18next'
 import { IconByLanguage } from '../../atoms/icon-by-language'
 import { Brazil } from '../../icons/flags/brazil'
 import { UnitedStates } from '../../icons/flags/united-states'
-import { Language } from '../../../types'
+import { useTranslate } from '../../../hooks/use-translate'
 
 export function TranslationChanger() {
-  const { i18n } = useTranslation()
-
-  function onLanguageClick(language: Language): void {
-    i18n.changeLanguage(language)
-    closeDropdownIfNecessary()
-  }
-
-  function closeDropdownIfNecessary(): void {
-    if (document.activeElement instanceof HTMLElement) {
-      document.activeElement.blur()
-    }
-  }
+  const { language, onLanguageClick } = useTranslate()
 
   return (
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn m-1">
-        <IconByLanguage language={i18n.language as Language} />
+        <IconByLanguage language={language} />
       </div>
       <ul
         tabIndex={0}
