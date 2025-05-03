@@ -32,5 +32,5 @@ export function Footer() {
 function getFooterText(): string {
   const originalReleaseYear = 2025
   const currentYear = new Date().getFullYear()
-  return `Copyright © ${originalReleaseYear} - ${currentYear}`
+  return `© ${originalReleaseYear} - ${currentYear}. Template available under MIT License`
 }
