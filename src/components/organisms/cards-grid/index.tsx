@@ -24,7 +24,6 @@ export function CardsGrid() {
         <Card.Description>
           {t('principles.about_learning.description')}
         </Card.Description>
-        <p className="text-sm">{t('principles.about_learning.detail')}</p>
       </Card>
     </div>
   )
