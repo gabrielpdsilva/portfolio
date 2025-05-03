@@ -12,13 +12,13 @@
     "preview": "vite preview",
     "format": "prettier --write ./src",
     "prepare": "husky",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "**/*": [
-      "npm run lint",
-      "npm run format"
+      "yarn lint",
+      "yarn format"
     ]
   },
   "dependencies": {
