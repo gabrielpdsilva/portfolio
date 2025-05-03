@@ -27,7 +27,7 @@ function HighlightCard({ title, subtitle, onClick, src }: HighlightCardProps) {
 export function Highlights() {
   const { t } = useTranslation()
   return (
-    <div className="justify-center grid gap-4 md:grid-cols-3">
+    <div className="justify-center grid gap-4 lg:grid-cols-3">
       <HighlightCard
         title={t('highlights.inspector.name')}
         subtitle={t('highlights.inspector.description')}

@@ -12,7 +12,7 @@ const principleKeys = [
 
 export function Principles() {
   return (
-    <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+    <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 place-items-center">
       {principleKeys.map((principleKey) => (
         <PrincipleCard key={principleKey} principleKey={principleKey} />
       ))}

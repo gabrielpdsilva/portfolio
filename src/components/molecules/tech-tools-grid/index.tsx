@@ -12,7 +12,7 @@ import { Jest } from '../../icons/techs/jest'
 
 export function TechToolsGrid() {
   return (
-    <div className="justify-center grid grid-cols-9 space-x-0.5 sm:flex">
+    <div className="justify-center grid grid-cols-5 md:grid-cols-9 space-x-0.5 sm:flex">
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Git">
         <Git />
       </div>

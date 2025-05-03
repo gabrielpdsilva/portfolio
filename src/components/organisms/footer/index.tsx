@@ -8,6 +8,7 @@ export function Footer() {
     <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content py-2">
       <aside>
         <p>{getFooterText()}</p>
+        <p>Template available under MIT License</p>
         <div className="flex gap-2">
           <div
             className="tooltip hover:cursor-pointer"
@@ -32,5 +33,5 @@ export function Footer() {
 function getFooterText(): string {
   const originalReleaseYear = 2025
   const currentYear = new Date().getFullYear()
-  return `© ${originalReleaseYear} - ${currentYear}. Template available under MIT License`
+  return `© ${originalReleaseYear} - ${currentYear}`
 }
