@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react'
 import { Theme } from '../../../types'
+import { defaultSettings } from '../../../constants/settings'
 
 export function ThemeChanger() {
-  const [theme, setTheme] = useState<Theme>('night')
+  const { dark, light } = defaultSettings.theme
+
+  const [theme, setTheme] = useState<Theme>(dark)
 
   const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'night' : 'light')
+    setTheme(theme === light ? dark : light)
   }
 
   useEffect(() => {

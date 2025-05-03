@@ -1,3 +1,3 @@
 export type Language = 'pt-BR' | 'en'
 
-export type Theme = 'night' | 'light'
+export type Theme = 'silk' | 'sunset'

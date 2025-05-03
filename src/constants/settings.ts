@@ -2,11 +2,17 @@ import { Language } from '../types'
 import { Theme } from '../types'
 
 export const defaultSettings: Settings = {
-  theme: 'night',
+  theme: {
+    light: 'silk',
+    dark: 'sunset',
+  },
   language: 'en',
 }
 
 type Settings = {
-  theme: Theme
+  theme: {
+    light: Theme
+    dark: Theme
+  }
   language: Language
 }
