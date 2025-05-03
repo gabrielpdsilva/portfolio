@@ -2,9 +2,7 @@
 
 ## 🌐 Live Demo
 
-Check out my portfolio built with this template:
-
-This template is used in [Portfolio](https://gabrielpdsilva.github.io/portfolio/)
+Check out my [portfolio](https://gabrielpdsilva.github.io/portfolio/) built with this template.
 
 ## 📄 License
 
@@ -26,6 +24,6 @@ Run locally:
 yarn dev
 ```
 
-## 🙏 Special Thanks
+## 🙏 Special thanks
 
 https://flowbite.com/icons/
