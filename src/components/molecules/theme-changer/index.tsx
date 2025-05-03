@@ -1,26 +1,17 @@
-import { useState, useEffect } from 'react'
-import { Theme } from '../../../types'
-import { defaultSettings } from '../../../constants/settings'
+import { useEffect } from 'react'
+import { useTheme } from '../../../hooks/use-theme'
 
 export function ThemeChanger() {
-  const { dark, light } = defaultSettings.theme
-
-  const [theme, setTheme] = useState<Theme>(dark)
-
-  const toggleTheme = () => {
-    setTheme(theme === light ? dark : light)
-  }
+  const { theme, onChangeTheme, setStorageTheme } = useTheme()
 
   useEffect(() => {
-    localStorage.setItem('theme', theme)
-    const localTheme = localStorage.getItem('theme')
-    document.querySelector('html')?.setAttribute('data-theme', localTheme!)
+    setStorageTheme(theme)
   }, [theme])
 
   return (
     <label className="swap swap-rotate">
       <input
-        onClick={toggleTheme}
+        onClick={onChangeTheme}
         type="checkbox"
         className="theme-controller"
       />
