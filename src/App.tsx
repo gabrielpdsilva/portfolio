@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { Portfolio } from './pages/Portfolio'
+import { Portfolio } from './pages/p'
 
 function App() {
   return (
