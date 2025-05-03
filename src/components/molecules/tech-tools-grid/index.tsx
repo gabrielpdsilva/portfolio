@@ -28,7 +28,7 @@ export function TechToolsGrid() {
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="React Native">
         <ReactNative />
       </div>
-      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="NestJs">
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="NestJS">
         <NestJS />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Jest">
