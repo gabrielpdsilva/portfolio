@@ -22,6 +22,18 @@
     "about_learning": {
       "title": "Constante aprendizagem",
       "description": "“Pode ser que eu não saiba a resposta, mas eu sei como encontrá-la, e a encontrarei.” — Adaptado de À Procura da Felicidade"
+    },
+    "about_tests": {
+      "title": "Testes unitários",
+      "description": "Código confiável é código testado. Trato os testes como parte essencial do desenvolvimento."
+    },
+    "about_ux": {
+      "title": "Boas práticas de UX/UI",
+      "description": "Design e usabilidade são tão importantes quanto a funcionalidade—uma boa experiência faz toda a diferença."
+    },
+    "about_principles": {
+      "title": "Princípios acima de tecnologias",
+      "description": "Tecnologias mudam. Princípios sólidos de engenharia permanecem."
     }
   },
   "highlights": {
