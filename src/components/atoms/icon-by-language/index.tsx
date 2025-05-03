@@ -1,4 +1,4 @@
-import { Brazil } from '../../icons/flags/brazil'
+import { Brazil } from '../../icons/flags/br'
 import { UnitedStates } from '../../icons/flags/united-states'
 import { Language } from '../../../locale/types'
 
