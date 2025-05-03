@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
 import { Footer } from '../../components/organisms/footer'
 import { Section } from '../../components/molecules/section'
-import { CardsGrid } from '../../components/organisms/cards-grid'
+import { Principles } from '../../components/organisms/principles'
 import { Overview } from '../../components/organisms/overview'
-import { Academic } from '../../components/organisms/academic'
+import { AcademicTrajectory } from '../../components/organisms/academic-trajectory'
 import { Header } from '../../components/organisms/header'
 import { Highlights } from '../../components/organisms/highlights'
 
@@ -21,10 +21,10 @@ export function Portfolio() {
             <Highlights />
           </Section>
           <Section title={t('principles.title')}>
-            <CardsGrid />
+            <Principles />
           </Section>
           <Section title={t('academic.title')}>
-            <Academic />
+            <AcademicTrajectory />
           </Section>
         </div>
       </div>

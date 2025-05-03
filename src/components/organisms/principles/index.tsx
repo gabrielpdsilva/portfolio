@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Card } from '../../molecules/card'
 
-const contents = [
+const principleKeys = [
   'about_valuable_features',
   'about_clean_code',
   'about_learning',
@@ -10,26 +10,26 @@ const contents = [
   'about_principles',
 ]
 
-export function CardsGrid() {
+export function Principles() {
   return (
     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
-      {contents.map((content) => (
-        <PrincipleCard key={content} content={content} />
+      {principleKeys.map((principleKey) => (
+        <PrincipleCard key={principleKey} principleKey={principleKey} />
       ))}
     </div>
   )
 }
 
 type PrincipleCardProps = {
-  content: string
+  principleKey: string
 }
 
-function PrincipleCard({ content }: PrincipleCardProps) {
+function PrincipleCard({ principleKey }: PrincipleCardProps) {
   const { t } = useTranslation()
-  const title = `principles.${content}.title`
-  const description = `principles.${content}.description`
+  const title = `principles.${principleKey}.title`
+  const description = `principles.${principleKey}.description`
   return (
-    <Card key={content}>
+    <Card>
       <Card.Title>{t(title)}</Card.Title>
       <Card.Description>{t(description)}</Card.Description>
     </Card>

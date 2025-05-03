@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-export function Academic() {
+export function AcademicTrajectory() {
   const { t } = useTranslation()
   return (
     <div className="flex justify-center">
