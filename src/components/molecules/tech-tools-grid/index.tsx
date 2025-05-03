@@ -8,10 +8,11 @@ import { Postgres } from '../../icons/techs/postgres'
 import { ReactNative } from '../../icons/techs/react-native'
 import { Typescript } from '../../icons/techs/typescript'
 import { ICON_TOOLTIP_CLASSNAME } from '../../../constants/styles'
+import { Jest } from '../../icons/techs/jest'
 
 export function TechToolsGrid() {
   return (
-    <div className="justify-center grid grid-cols-9 sm:flex">
+    <div className="justify-center grid grid-cols-9 space-x-0.5 sm:flex">
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Git">
         <Git />
       </div>
@@ -29,6 +30,9 @@ export function TechToolsGrid() {
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="NestJs">
         <NestJS />
+      </div>
+      <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Jest">
+        <Jest />
       </div>
       <div className={ICON_TOOLTIP_CLASSNAME} data-tip="Firebase">
         <Firebase />
