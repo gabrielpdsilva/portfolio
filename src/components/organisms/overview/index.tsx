@@ -1,9 +1,9 @@
-import { useTranslation } from 'react-i18next'
 import { TechToolsGrid } from '../../molecules/tech-tools-grid'
 import { TechStackGrid } from '../../molecules/tech-stack-grid'
+import { useContent } from '../../../hooks/use-content'
 
 export function Overview() {
-  const { t } = useTranslation()
+  const { overview } = useContent()
   return (
     <div className="card w-fit border-1 border-base-content">
       <div className="card-body">
@@ -15,13 +15,13 @@ export function Overview() {
           </div>
           <div>
             <h1 className="text-5xl font-bold text-center lg:text-left">
-              {t('overview.title')}
+              {overview.title}
             </h1>
             <div className="font-bold text-2xl py-6 text-center lg:text-left group transition duration-300 text-primary">
-              {t('overview.subtitle')}
+              {overview.subtitle}
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary" />
             </div>
-            <p className="italic">{t('overview.detail')}</p>
+            <p className="italic">{overview.detail}</p>
           </div>
         </div>
         <div className="space-y-1">
