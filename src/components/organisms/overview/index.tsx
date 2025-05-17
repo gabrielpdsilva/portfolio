@@ -1,9 +1,8 @@
-import { TechToolsGrid } from '../../molecules/tech-tools-grid'
-import { TechStackGrid } from '../../molecules/tech-stack-grid'
 import { useContent } from '../../../hooks/use-content'
+import { ICON_TOOLTIP_CLASSNAME } from '../../../constants/styles'
 
 export function Overview() {
-  const { overview } = useContent()
+  const { overview, technologies, stacks } = useContent()
   return (
     <div className="card w-fit border-1 border-base-content">
       <div className="card-body">
@@ -25,8 +24,29 @@ export function Overview() {
           </div>
         </div>
         <div className="space-y-1">
-          <TechStackGrid />
-          <TechToolsGrid />
+          <div className="flex justify-center space-x-1">
+            {stacks.map(({ name, Icon }) => (
+              <div
+                key={name}
+                className={ICON_TOOLTIP_CLASSNAME}
+                data-tip={name}
+              >
+                <Icon />
+              </div>
+            ))}
+          </div>
+
+          <div className="place-items-center grid grid-cols-5 md:grid-cols-10">
+            {technologies.map(({ name, Icon }) => (
+              <div
+                key={name}
+                data-tip={name}
+                className={ICON_TOOLTIP_CLASSNAME}
+              >
+                <Icon />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
