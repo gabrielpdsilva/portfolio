@@ -72,5 +72,6 @@
       "course_conclusion": "TCC: an application for tabletop RPG sessions.",
       "certificate": "I received a certificate of excellence for my performance in the class."
     }
-  }
+  },
+  "footer": "Template available under MIT License"
 }
