@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next'
 import { Footer } from '../../components/organisms/footer'
 import { Section } from '../../components/molecules/section'
 import { Principles } from '../../components/organisms/principles'
@@ -6,9 +5,10 @@ import { Overview } from '../../components/organisms/overview'
 import { AcademicTrajectory } from '../../components/organisms/academic-trajectory'
 import { Header } from '../../components/organisms/header'
 import { Highlights } from '../../components/organisms/highlights'
+import { useContent } from '../../hooks/use-content'
 
 export function Portfolio() {
-  const { t } = useTranslation()
+  const { highlights, principles, timeline } = useContent()
   return (
     <div>
       <Header />
@@ -17,13 +17,13 @@ export function Portfolio() {
           <div className="flex justify-center">
             <Overview />
           </div>
-          <Section title={t('highlights.title')}>
+          <Section title={highlights.title}>
             <Highlights />
           </Section>
-          <Section title={t('principles.title')}>
+          <Section title={principles.title}>
             <Principles />
           </Section>
-          <Section title={t('academic.title')}>
+          <Section title={timeline.title}>
             <AcademicTrajectory />
           </Section>
         </div>

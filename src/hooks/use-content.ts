@@ -26,26 +26,29 @@ export function useContent() {
         subtitle: t('overview.subtitle'),
         detail: t('overview.detail'),
       },
-      highlights: [
-        {
-          title: t('highlights.inspector.name'),
-          subtitle: t('highlights.inspector.description'),
-          src: 'assets/projects/inspector.png',
-          url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos&hl=pt',
-        },
-        {
-          title: t('highlights.axis.name'),
-          subtitle: t('highlights.axis.description'),
-          src: 'assets/projects/axis.png',
-          url: 'https://play.google.com/store/apps/details?id=aero.flyaxis&hl=pt_BR',
-        },
-        {
-          title: t('highlights.vowe.name'),
-          subtitle: t('highlights.vowe.description'),
-          src: 'assets/projects/vowe.png',
-          url: 'https://play.google.com/store/search?q=vowe&c=apps&hl=pt',
-        },
-      ],
+      highlights: {
+        title: t('highlights.title'),
+        items: [
+          {
+            title: t('highlights.inspector.name'),
+            subtitle: t('highlights.inspector.description'),
+            src: 'assets/projects/inspector.png',
+            url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos&hl=pt',
+          },
+          {
+            title: t('highlights.axis.name'),
+            subtitle: t('highlights.axis.description'),
+            src: 'assets/projects/axis.png',
+            url: 'https://play.google.com/store/apps/details?id=aero.flyaxis&hl=pt_BR',
+          },
+          {
+            title: t('highlights.vowe.name'),
+            subtitle: t('highlights.vowe.description'),
+            src: 'assets/projects/vowe.png',
+            url: 'https://play.google.com/store/search?q=vowe&c=apps&hl=pt',
+          },
+        ],
+      },
       stacks: [
         {
           name: 'Mobile',

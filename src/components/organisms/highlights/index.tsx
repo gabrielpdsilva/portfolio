@@ -7,7 +7,7 @@ export function Highlights() {
   const { highlights } = useContent()
   return (
     <div className="justify-center grid gap-4 lg:grid-cols-3">
-      {highlights.map(({ title, subtitle, src, url }) => (
+      {highlights.items.map(({ title, subtitle, src, url }) => (
         <HighlightCard
           key={title}
           title={title}
