@@ -2,12 +2,7 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Desenvolvedor de Software",
-    "detail": "Agregando valor ao mundo através de soluções inteligentes",
-    "stack_tooltips": {
-      "backend": "Back-end",
-      "frontend": "Front-end",
-      "mobile": "Mobile"
-    }
+    "detail": "Agregando valor ao mundo através de soluções inteligentes"
   },
   "principles": {
     "title": "Princípios chave",
@@ -38,7 +33,7 @@
   },
   "highlights": {
     "title": "Destaques",
-    "detail": "Ver na loja",
+    "detail": "Ver mais",
     "inspector": {
       "name": "Delfos Inspector",
       "description": "App offline para preencher checklists de inspeção."
@@ -72,5 +67,6 @@
       "course_conclusion": "TCC: um aplicativo para sessões de RPG de mesa.",
       "certificate": "Adquiri certificado de excelência pelo meu desempenho na turma."
     }
-  }
+  },
+  "footer": "Template disponível sob a Licença MIT"
 }

@@ -2,12 +2,7 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Software Developer",
-    "detail": "Adding value to the world through smart solutions",
-    "stack_tooltips": {
-      "backend": "Back-end",
-      "frontend": "Front-end",
-      "mobile": "Mobile"
-    }
+    "detail": "Adding value to the world through smart solutions"
   },
   "principles": {
     "title": "Key principles",
@@ -38,7 +33,7 @@
   },
   "highlights": {
     "title": "Highlights",
-    "detail": "Check on store",
+    "detail": "See more",
     "inspector": {
       "name": "Delfos Inspector",
       "description": "Offline app for filling out inspection checklists."
@@ -72,5 +67,6 @@
       "course_conclusion": "TCC: an application for tabletop RPG sessions.",
       "certificate": "I received a certificate of excellence for my performance in the class."
     }
-  }
+  },
+  "footer": "Template available under MIT License"
 }
