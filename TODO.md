@@ -3,3 +3,4 @@
 - Add smart grid logic
 - Fix imports
 - Add unit test
+- Autoformat on commit
