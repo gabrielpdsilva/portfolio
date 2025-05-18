@@ -1,4 +1,3 @@
-import { openInNewTab } from '../../../shortcuts'
 import { useContent } from '../../../hooks/use-content'
 
 export function Footer() {
@@ -10,14 +9,15 @@ export function Footer() {
         <p>{footer}</p>
         <div className="flex gap-2">
           {socialMedias.map(({ name, url, Icon }) => (
-            <div
+            <a
               key={name}
               data-tip={name}
-              onClick={() => openInNewTab(url)}
+              href={url}
+              target="_blank"
               className="tooltip hover:cursor-pointer"
             >
               <Icon />
-            </div>
+            </a>
           ))}
         </div>
       </aside>

@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import { openInNewTab } from '../../../shortcuts'
 import { Card } from '../../molecules/card'
 import { useContent } from '../../../hooks/use-content'
 
@@ -13,23 +12,27 @@ export function Highlights() {
           title={title}
           subtitle={subtitle}
           src={src}
-          onClick={() => openInNewTab(url)}
+          url={url}
         />
       ))}
     </div>
   )
 }
 
-function HighlightCard({ title, subtitle, onClick, src }: HighlightCardProps) {
+function HighlightCard({ title, subtitle, src, url }: HighlightCardProps) {
   const { t } = useTranslation()
   return (
     <Card>
       <Card.Title>{title}</Card.Title>
       <img src={src} className="mb-2 rounded-lg" />
       <Card.Description>{subtitle}</Card.Description>
-      <button onClick={onClick} className="self-end btn btn-soft btn-primary">
+      <a
+        className="self-end btn btn-soft btn-primary"
+        href={url}
+        target="_blank"
+      >
         {t('highlights.detail')}
-      </button>
+      </a>
     </Card>
   )
 }
@@ -38,5 +41,5 @@ type HighlightCardProps = {
   title: string
   subtitle: string
   src: string
-  onClick: () => void
+  url: string
 }
