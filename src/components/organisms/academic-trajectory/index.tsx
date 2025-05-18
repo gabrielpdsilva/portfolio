@@ -27,6 +27,7 @@ export function AcademicTrajectory() {
                     />
                   </svg>
                 </div>
+
                 <div
                   className={
                     isOddIndex
@@ -36,12 +37,11 @@ export function AcademicTrajectory() {
                 >
                   <time className="font-mono italic">{subtitle}</time>
                   <div className="text-lg font-black">{title}</div>
-                  <p className="list-col-wrap text-xs">
-                    {details.map((it) => (
-                      <p key={it}>{it}</p>
+                    {details.map((detail) => (
+                      <p className="list-col-wrap text-xs" key={detail}>{detail}</p>
                     ))}
-                  </p>
                 </div>
+
                 {!isLastItem && <hr />}
               </li>
             )
