@@ -14,83 +14,109 @@ import { Angular } from '../components/icons/techs/angular'
 import { Mobile } from '../components/icons/stack/mobile'
 import { Monitor } from '../components/icons/stack/monitor'
 import { Database } from '../components/icons/stack/database'
+import { useMemo } from 'react'
 
 export function useContent() {
   const { t } = useTranslation()
 
-  return {
-    overview: {
-      title: t('overview.title'),
-      subtitle: t('overview.subtitle'),
-      detail: t('overview.detail'),
-    },
-    stacks: [
-      {
-        name: 'Mobile',
-        Icon: Mobile,
+  const content = useMemo(
+    () => ({
+      overview: {
+        title: t('overview.title'),
+        subtitle: t('overview.subtitle'),
+        detail: t('overview.detail'),
       },
-      {
-        name: 'Front-end',
-        Icon: Monitor,
-      },
-      {
-        name: 'Back-end',
-        Icon: Database,
-      },
-    ],
-    technologies: [
-      { name: 'Git', Icon: Git },
-      { name: 'JavaScript', Icon: Javascript },
-      { name: 'TypeScript', Icon: Typescript },
-      { name: 'React', Icon: React },
-      { name: 'React Native', Icon: ReactNative },
-      { name: 'NestJS', Icon: NestJS },
-      { name: 'Jest', Icon: Jest },
-      { name: 'Firebase', Icon: Firebase },
-      { name: 'Postgres', Icon: Postgres },
-      { name: 'Angular', Icon: Angular },
-    ],
-    principles: {
-      title: t('principles.title'),
-      items: [
+      highlights: [
         {
-          title: t('principles.about_valuable_features.title'),
-          text: t('principles.about_valuable_features.description'),
+          title: t('highlights.inspector.name'),
+          subtitle: t('highlights.inspector.description'),
+          src: 'assets/projects/inspector.png',
+          url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos&hl=pt',
         },
         {
-          title: t('principles.about_clean_code.title'),
-          text: t('principles.about_clean_code.description'),
+          title: t('highlights.axis.name'),
+          subtitle: t('highlights.axis.description'),
+          src: 'assets/projects/axis.png',
+          url: 'https://play.google.com/store/apps/details?id=aero.flyaxis&hl=pt_BR',
         },
         {
-          title: t('principles.about_learning.title'),
-          text: t('principles.about_learning.description'),
-        },
-        {
-          title: t('principles.about_tests.title'),
-          text: t('principles.about_tests.description'),
-        },
-        {
-          title: t('principles.about_ux.title'),
-          text: t('principles.about_ux.description'),
-        },
-        {
-          title: t('principles.about_principles.title'),
-          text: t('principles.about_principles.description'),
+          title: t('highlights.vowe.name'),
+          subtitle: t('highlights.vowe.description'),
+          src: 'assets/projects/vowe.png',
+          url: 'https://play.google.com/store/search?q=vowe&c=apps&hl=pt',
         },
       ],
-    },
-    socialMedias: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/gabrielpdsilva',
-        Icon: GitHub,
+      stacks: [
+        {
+          name: 'Mobile',
+          Icon: Mobile,
+        },
+        {
+          name: 'Front-end',
+          Icon: Monitor,
+        },
+        {
+          name: 'Back-end',
+          Icon: Database,
+        },
+      ],
+      technologies: [
+        { name: 'Git', Icon: Git },
+        { name: 'JavaScript', Icon: Javascript },
+        { name: 'TypeScript', Icon: Typescript },
+        { name: 'React', Icon: React },
+        { name: 'React Native', Icon: ReactNative },
+        { name: 'NestJS', Icon: NestJS },
+        { name: 'Jest', Icon: Jest },
+        { name: 'Firebase', Icon: Firebase },
+        { name: 'Postgres', Icon: Postgres },
+        { name: 'Angular', Icon: Angular },
+      ],
+      principles: {
+        title: t('principles.title'),
+        items: [
+          {
+            title: t('principles.about_valuable_features.title'),
+            text: t('principles.about_valuable_features.description'),
+          },
+          {
+            title: t('principles.about_clean_code.title'),
+            text: t('principles.about_clean_code.description'),
+          },
+          {
+            title: t('principles.about_learning.title'),
+            text: t('principles.about_learning.description'),
+          },
+          {
+            title: t('principles.about_tests.title'),
+            text: t('principles.about_tests.description'),
+          },
+          {
+            title: t('principles.about_ux.title'),
+            text: t('principles.about_ux.description'),
+          },
+          {
+            title: t('principles.about_principles.title'),
+            text: t('principles.about_principles.description'),
+          },
+        ],
       },
-      {
-        name: 'Stack Overflow',
-        url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
-        Icon: StackOverflow,
-      },
-    ],
-    footer: t('footer'),
-  }
+      socialMedias: [
+        {
+          name: 'GitHub',
+          url: 'https://github.com/gabrielpdsilva',
+          Icon: GitHub,
+        },
+        {
+          name: 'Stack Overflow',
+          url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
+          Icon: StackOverflow,
+        },
+      ],
+      footer: t('footer'),
+    }),
+    [t]
+  )
+
+  return content
 }

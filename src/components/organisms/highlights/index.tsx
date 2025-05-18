@@ -1,41 +1,21 @@
 import { useTranslation } from 'react-i18next'
 import { openInNewTab } from '../../../shortcuts'
 import { Card } from '../../molecules/card'
+import { useContent } from '../../../hooks/use-content'
 
 export function Highlights() {
-  const { t } = useTranslation()
+  const { highlights } = useContent()
   return (
     <div className="justify-center grid gap-4 lg:grid-cols-3">
-      <HighlightCard
-        title={t('highlights.inspector.name')}
-        subtitle={t('highlights.inspector.description')}
-        src="assets/projects/inspector.png"
-        onClick={() =>
-          openInNewTab(
-            'https://play.google.com/store/apps/details?id=com.inspector3.delfos&hl=pt'
-          )
-        }
-      />
-      <HighlightCard
-        title={t('highlights.axis.name')}
-        subtitle={t('highlights.axis.description')}
-        src="assets/projects/axis.png"
-        onClick={() =>
-          openInNewTab(
-            'https://play.google.com/store/apps/details?id=aero.flyaxis&hl=pt_BR'
-          )
-        }
-      />
-      <HighlightCard
-        title={t('highlights.vowe.name')}
-        subtitle={t('highlights.vowe.description')}
-        src="assets/projects/vowe.png"
-        onClick={() =>
-          openInNewTab(
-            'https://play.google.com/store/search?q=vowe&c=apps&hl=pt'
-          )
-        }
-      />
+      {highlights.map(({ title, subtitle, src, url }) => (
+        <HighlightCard
+          key={title}
+          title={title}
+          subtitle={subtitle}
+          src={src}
+          onClick={() => openInNewTab(url)}
+        />
+      ))}
     </div>
   )
 }
