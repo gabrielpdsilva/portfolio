@@ -1,0 +1,5 @@
+- Change font
+- Document how to use this project
+- Add smart grid logic
+- Fix imports
+- Add unit test
