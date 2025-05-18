@@ -101,6 +101,36 @@ export function useContent() {
           },
         ],
       },
+      timeline: {
+        title: t('academic.title'),
+        items: [
+          {
+            title: t(
+              'academic.technologist_systems_analysis_development.title'
+            ),
+            subtitle: t(
+              'academic.technologist_systems_analysis_development.subtitle'
+            ),
+            details: [
+              `• ${t('academic.technologist_systems_analysis_development.course_conclusion')}`,
+              `• ${t('academic.technologist_systems_analysis_development.certificate')}`,
+            ],
+          },
+          {
+            title: t('academic.english.title'),
+            subtitle: t('academic.english.subtitle'),
+            details: [`• ${t('academic.english.course_conclusion')}`],
+          },
+          {
+            title: t('academic.technician_systems_development.title'),
+            subtitle: t('academic.technician_systems_development.subtitle'),
+            details: [
+              `• ${t('academic.technician_systems_development.course_conclusion')}`,
+              `• ${t('academic.technician_systems_development.certificate')}`,
+            ],
+          },
+        ],
+      },
       socialMedias: [
         {
           name: 'GitHub',
