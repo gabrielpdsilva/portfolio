@@ -37,9 +37,11 @@ export function AcademicTrajectory() {
                 >
                   <time className="font-mono italic">{subtitle}</time>
                   <div className="text-lg font-black">{title}</div>
-                    {details.map((detail) => (
-                      <p className="list-col-wrap text-xs" key={detail}>{detail}</p>
-                    ))}
+                  {details.map((detail) => (
+                    <p className="list-col-wrap text-xs" key={detail}>
+                      {detail}
+                    </p>
+                  ))}
                 </div>
 
                 {!isLastItem && <hr />}
