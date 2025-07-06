@@ -7,28 +7,28 @@
   "principles": {
     "title": "Key principles",
     "about_valuable_features": {
-      "title": "Focus on value",
-      "description": "I create high valuable features based on continuous deliveries and validations with client, focusing on company business core."
+      "title": "Value-driven development",
+      "description": "I build features that matter—aligned with business goals, continuously delivered, and validated with real users."
     },
     "about_clean_code": {
-      "title": "Clean code",
-      "description": "Well-structured applications with scalable design and flexible code."
+      "title": "Clean, scalable code",
+      "description": "I craft well-structured applications with flexible, maintainable, and scalable architecture."
     },
     "about_learning": {
-      "title": "Constant learning",
-      "description": "“I may not know the answer, but I know how to find it, and I will find it.” — Adapted from The Pursuit of Happyness"
+      "title": "Continuous learning",
+      "description": "I don't always know the answer—but I know how to find it, and I will. Growth is part of my process."
     },
     "about_tests": {
       "title": "Unit testing",
       "description": "Reliable code is tested code. I treat tests as part of the development process."
     },
     "about_ux": {
-      "title": "UX/UI best practices",
-      "description": "Design and usability are as important as functionality—good experiences matter."
+      "title": "Friendly and intuitive UX/UI",
+      "description": "I create interfaces that are easy to use, visually clear, and grounded in UX/UI best practices."
     },
     "about_principles": {
-      "title": "Principles over technologies",
-      "description": "Trends fade, but engineering principles remain."
+      "title": "Principles over trends",
+      "description": "Technologies evolve, but sound engineering principles stand the test of time—and guide everything I build."
     }
   },
   "highlights": {
