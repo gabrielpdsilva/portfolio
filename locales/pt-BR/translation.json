@@ -7,28 +7,28 @@
   "principles": {
     "title": "Princípios chave",
     "about_valuable_features": {
-      "title": "Foco no valor",
-      "description": "Eu entrego features que agregam valor com base em entregas e validações contínuas com o cliente, com foco no negócio."
+      "title": "Desenvolvimento guiado por valor",
+      "description": "Crio funcionalidades que realmente importam—alinhadas aos objetivos de negócio, entregues continuamente e validadas com usuários reais."
     },
     "about_clean_code": {
-      "title": "Código limpo",
-      "description": "Aplicações bem estruturadas com um design escalável e código flexível."
+      "title": "Código limpo e escalável",
+      "description": "Desenvolvo aplicações bem estruturadas, com arquitetura flexível, de fácil manutenção e pronta para escalar."
     },
     "about_learning": {
-      "title": "Constante aprendizagem",
-      "description": "“Pode ser que eu não saiba a resposta, mas eu sei como encontrá-la, e a encontrarei.” — Adaptado de À Procura da Felicidade"
+      "title": "Aprendizado contínuo",
+      "description": "Nem sempre sei a resposta—mas sei como encontrá-la, e vou encontrar. Evoluir faz parte do meu processo."
     },
     "about_tests": {
       "title": "Testes unitários",
       "description": "Código confiável é código testado. Trato os testes como parte essencial do desenvolvimento."
     },
     "about_ux": {
-      "title": "Boas práticas de UX/UI",
-      "description": "Design e usabilidade são tão importantes quanto a funcionalidade—uma boa experiência faz toda a diferença."
+      "title": "UX/UI amigáveis e intuitivas",
+      "description": "Crio interfaces fáceis de usar, visualmente claras e baseadas em boas práticas de UX/UI."
     },
     "about_principles": {
-      "title": "Princípios acima de tecnologias",
-      "description": "Tecnologias mudam. Princípios sólidos de engenharia permanecem."
+      "title": "Princípios acima de tendências",
+      "description": "Tecnologias mudam, mas princípios sólidos de engenharia permanecem—e são eles que orientam tudo o que construo."
     }
   },
   "highlights": {
