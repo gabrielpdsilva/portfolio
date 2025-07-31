@@ -5,7 +5,7 @@ import { defaultSettings } from '../../../constants/settings'
 export function useThemeChanger() {
   const { dark, light } = defaultSettings.theme
 
-  const [theme, setTheme] = useState<Theme>(light)
+  const [theme, setTheme] = useState<Theme>(dark)
 
   function onChangeTheme(): void {
     setTheme(theme === light ? dark : light)

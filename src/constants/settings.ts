@@ -3,8 +3,8 @@ import { Theme } from '../types'
 
 export const defaultSettings: Settings = {
   theme: {
-    light: 'silk',
-    dark: 'sunset',
+    light: 'emerald',
+    dark: 'dracula',
   },
   language: 'en',
 }
