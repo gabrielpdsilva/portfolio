@@ -3,7 +3,7 @@ import { Theme } from '../types'
 
 export const defaultSettings: Settings = {
   theme: {
-    light: 'emerald',
+    light: 'cupcake',
     dark: 'dracula',
   },
   language: 'en',
