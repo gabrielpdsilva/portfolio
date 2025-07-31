@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
-import { useTheme } from '../../../hooks/use-theme'
+import { useThemeChanger } from './use-theme-changer'
 
 export function ThemeChanger() {
-  const { theme, onChangeTheme, setStorageTheme } = useTheme()
+  const { theme, onChangeTheme, setStorageTheme } = useThemeChanger()
 
   useEffect(() => {
     setStorageTheme(theme)

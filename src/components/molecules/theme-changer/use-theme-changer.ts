@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { Theme } from '../types'
-import { defaultSettings } from '../constants/settings'
+import { Theme } from '../../../types'
+import { defaultSettings } from '../../../constants/settings'
 
-export function useTheme() {
+export function useThemeChanger() {
   const { dark, light } = defaultSettings.theme
 
-  const [theme, setTheme] = useState<Theme>(dark)
+  const [theme, setTheme] = useState<Theme>(light)
 
   function onChangeTheme(): void {
     setTheme(theme === light ? dark : light)
