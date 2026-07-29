@@ -33,7 +33,17 @@
   },
   "highlights": {
     "title": "Highlights",
-    "detail": "See more",
+    "details_button": "Details",
+    "more_button": "More",
+    "close_button": "Close",
+    "dashboard_delfos": {
+      "name": "Dashboard Delfos",
+      "description": "Lorem ipsum"
+    },
+    "monitor_delfos": {
+      "name": "Monitor Delfos",
+      "description": "App for monitoring solar assets."
+    },
     "inspector": {
       "name": "Delfos Inspector",
       "description": "Offline app for filling out inspection checklists."
@@ -45,6 +55,10 @@
     "vowe": {
       "name": "Vowe Air",
       "description": "App for scheduling flights within a monthly hour package."
+    },
+    "selaz": {
+      "name": "Selaz",
+      "description": "Lorem ipsum"
     }
   },
   "academic": {
