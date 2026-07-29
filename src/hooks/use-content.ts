@@ -15,6 +15,8 @@ import { Mobile } from '../components/icons/stack/mobile'
 import { Monitor } from '../components/icons/stack/monitor'
 import { Database } from '../components/icons/stack/database'
 import { useMemo } from 'react'
+import { Claude } from '../components/icons/techs/claude'
+import { Mongo } from '../components/icons/techs/mongo'
 
 export function useContent() {
   const { t } = useTranslation()
@@ -30,22 +32,40 @@ export function useContent() {
         title: t('highlights.title'),
         items: [
           {
+            title: t('highlights.dashboard_delfos.name'),
+            subtitle: t('highlights.dashboard_delfos.description'),
+            src: 'assets/projects/dashboard_delfos.png',
+            url: 'https://play.google.com/store/apps/details?id=com.delfosim.monitordelfosapp',
+          },
+          {
+            title: t('highlights.monitor_delfos.name'),
+            subtitle: t('highlights.monitor_delfos.description'),
+            src: 'assets/projects/monitor_delfos.png',
+            url: 'https://play.google.com/store/apps/details?id=com.delfosim.monitordelfosapp',
+          },
+          {
             title: t('highlights.inspector.name'),
             subtitle: t('highlights.inspector.description'),
             src: 'assets/projects/inspector.png',
-            url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos&hl=pt',
+            url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos',
           },
           {
             title: t('highlights.axis.name'),
             subtitle: t('highlights.axis.description'),
             src: 'assets/projects/axis.png',
-            url: 'https://play.google.com/store/apps/details?id=aero.flyaxis&hl=pt_BR',
+            url: 'https://play.google.com/store/apps/details?id=aero.flyaxis',
           },
           {
             title: t('highlights.vowe.name'),
             subtitle: t('highlights.vowe.description'),
             src: 'assets/projects/vowe.png',
-            url: 'https://play.google.com/store/search?q=vowe&c=apps&hl=pt',
+            url: 'https://play.google.com/store/search?q=vowe&c=apps',
+          },
+          {
+            title: t('highlights.selaz.name'),
+            subtitle: t('highlights.selaz.description'),
+            src: 'assets/projects/vowe.png',
+            url: 'https://play.google.com/store/apps/details?id=com.selaz.quartzhexapod',
           },
         ],
       },
@@ -74,6 +94,8 @@ export function useContent() {
         { name: 'Firebase', Icon: Firebase },
         { name: 'Postgres', Icon: Postgres },
         { name: 'Angular', Icon: Angular },
+        { name: 'Claude', Icon: Claude },
+        { name: 'MongoDB', Icon: Mongo },
       ],
       principles: {
         title: t('principles.title'),

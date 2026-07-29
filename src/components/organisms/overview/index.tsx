@@ -49,7 +49,7 @@ function Stacks() {
 function Techs() {
   const { technologies } = useContent()
   return (
-    <div className="place-items-center grid grid-cols-5 md:grid-cols-10">
+    <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-4">
       {technologies.map(({ name, Icon }) => (
         <div key={name} data-tip={name} className={ICON_TOOLTIP_CLASSNAME}>
           <Icon />
