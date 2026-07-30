@@ -1,9 +1,5 @@
 import { ReactNode } from 'react'
 
-type SectionProps = {
-  title: string
-  children: ReactNode
-}
 export function Section({ title, children }: SectionProps) {
   return (
     <div className="space-y-3">
@@ -11,4 +7,9 @@ export function Section({ title, children }: SectionProps) {
       {children}
     </div>
   )
+}
+
+type SectionProps = {
+  title: string
+  children: ReactNode
 }

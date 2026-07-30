@@ -2,10 +2,6 @@ import { Language } from '../../../types'
 import { Brazil } from '../../icons/flags/brazil'
 import { UnitedStates } from '../../icons/flags/united-states'
 
-type IconByLanguageProps = {
-  language: Language
-}
-
 export function IconByLanguage({ language }: IconByLanguageProps) {
   switch (language) {
     case 'en':
@@ -13,4 +9,8 @@ export function IconByLanguage({ language }: IconByLanguageProps) {
     default:
       return <Brazil />
   }
+}
+
+type IconByLanguageProps = {
+  language: Language
 }

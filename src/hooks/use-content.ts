@@ -117,16 +117,41 @@ export function useContent() {
             text: t('principles.about_tests.description'),
           },
           {
-            title: t('principles.about_ux.title'),
-            text: t('principles.about_ux.description'),
-          },
-          {
             title: t('principles.about_principles.title'),
             text: t('principles.about_principles.description'),
           },
+          {
+            title: t('principles.about_ai.title'),
+            text: t('principles.about_ai.description'),
+          },
         ],
       },
-      timeline: {
+      professional: {
+        title: t('professional.title'),
+        items: [
+          {
+            title: t('professional.delfos.title'),
+            subtitle: t('professional.delfos.subtitle'),
+            details: t('professional.delfos.details'),
+          },
+          {
+            title: t('professional.proaero.title'),
+            subtitle: t('professional.proaero.subtitle'),
+            details: t('professional.proaero.details'),
+          },
+          {
+            title: t('professional.terapia_de_bolso.title'),
+            subtitle: t('professional.terapia_de_bolso.subtitle'),
+            details: t('professional.terapia_de_bolso.details'),
+          },
+          {
+            title: t('professional.cernovapps.title'),
+            subtitle: t('professional.cernovapps.subtitle'),
+            details: t('professional.cernovapps.details'),
+          },
+        ],
+      },
+      academic: {
         title: t('academic.title'),
         items: [
           {
@@ -136,23 +161,19 @@ export function useContent() {
             subtitle: t(
               'academic.technologist_systems_analysis_development.subtitle'
             ),
-            details: [
-              `• ${t('academic.technologist_systems_analysis_development.course_conclusion')}`,
-              `• ${t('academic.technologist_systems_analysis_development.certificate')}`,
-            ],
+            details: t(
+              'academic.technologist_systems_analysis_development.details'
+            ),
           },
           {
             title: t('academic.english.title'),
             subtitle: t('academic.english.subtitle'),
-            details: [`• ${t('academic.english.course_conclusion')}`],
+            details: t('academic.english.details'),
           },
           {
             title: t('academic.technician_systems_development.title'),
             subtitle: t('academic.technician_systems_development.subtitle'),
-            details: [
-              `• ${t('academic.technician_systems_development.course_conclusion')}`,
-              `• ${t('academic.technician_systems_development.certificate')}`,
-            ],
+            details: t('academic.technician_systems_development.details'),
           },
         ],
       },
