@@ -16,9 +16,12 @@
     "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
-    "**/*": [
-      "yarn lint",
-      "yarn format"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,scss,md}": [
+      "prettier --write"
     ]
   },
   "dependencies": {
