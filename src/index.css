@@ -3,7 +3,4 @@
   themes: all;
 }
 @layer base {
-  html {
-    @apply font-mono;
-  }
 }
