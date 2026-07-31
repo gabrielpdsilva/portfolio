@@ -58,7 +58,7 @@
     },
     "selaz": {
       "name": "Selaz",
-      "description": "An application that allows healthcare professionals to monitor patients undergoing treatment with the Quartz Hexapod device."
+      "description": "An application that enables doctors and patients to monitor treatments using the Quartz Hexapod device."
     }
   },
   "professional": {

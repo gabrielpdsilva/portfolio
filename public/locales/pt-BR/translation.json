@@ -58,7 +58,7 @@
     },
     "selaz": {
       "name": "Selaz",
-      "description": "Aplicativo que permite monitoramento do tratamento de pacientes que utilizam o equipamento Quartz Hexapod."
+      "description": "Aplicativo que permite a médicos e pacientes acompanhar tratamentos realizados com o dispositivo Quartz Hexapod."
     }
   },
   "professional": {
