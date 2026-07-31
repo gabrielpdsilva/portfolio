@@ -1,5 +1,5 @@
+import { Theme } from '@/config/theme/type'
 import { useState } from 'react'
-import { Theme } from '../../../types'
 
 export function useThemeSelector() {
   const [theme, setTheme] = useState<Theme>('light')

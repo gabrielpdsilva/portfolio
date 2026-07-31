@@ -2,17 +2,19 @@ import { Language } from './locale/type'
 import { Theme } from './theme/type'
 
 export const config: Config = {
-  theme: {
+  themes: {
     light: 'silk',
     dark: 'dracula',
   },
+  defaultTheme: 'dracula',
   language: 'en',
 }
 
 type Config = {
-  theme: {
+  themes: {
     light: Theme
     dark: Theme
   }
+  defaultTheme: Theme
   language: Language
 }

@@ -1,7 +1,7 @@
-import { IconByLanguage } from '../../atoms/icon-by-language'
-import { Brazil } from '../../icons/flags/brazil'
-import { UnitedStates } from '../../icons/flags/united-states'
-import { useTranslate } from '../../../hooks/use-translate'
+import { IconByLanguage } from '@/components/atoms/icon-by-language'
+import { Brazil } from '@/components/icons/flags/brazil'
+import { UnitedStates } from '@/components/icons/flags/united-states'
+import { useTranslate } from '@/hooks/use-translate'
 
 export function TranslationChanger() {
   const { language, onLanguageClick } = useTranslate()

@@ -3,9 +3,9 @@ import { Theme } from '@/config/theme/type'
 import { config } from '@/config'
 
 export function useThemeChanger() {
-  const { dark, light } = config.theme
+  const { dark, light } = config.themes
 
-  const [theme, setTheme] = useState<Theme>(dark)
+  const [theme, setTheme] = useState<Theme>(config.defaultTheme)
 
   function onChangeTheme(): void {
     setTheme(theme === light ? dark : light)

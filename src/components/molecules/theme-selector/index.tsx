@@ -1,4 +1,4 @@
-import { themes } from '../../../types'
+import { themes } from '@/config/theme'
 import { useThemeSelector } from './use-theme-selector'
 
 export function ThemeSelector() {
