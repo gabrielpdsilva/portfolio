@@ -18,5 +18,3 @@ i18n
   })
 
 export default i18n
-
-export type Language = 'pt-BR' | 'en'
