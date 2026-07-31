@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Language } from '../types'
+import { Language } from '../config/locale/type'
 
 export function useTranslate() {
   const { i18n } = useTranslation()

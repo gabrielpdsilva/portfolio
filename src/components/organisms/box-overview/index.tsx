@@ -1,5 +1,7 @@
-import { ICON_TOOLTIP_CLASSNAME } from '../../../constants/styles'
 import { ReactNode } from 'react'
+
+const ICON_TOOLTIP_CLASSNAME =
+  'tooltip transform transition duration-500 hover:scale-120'
 
 export function BoxOverview({
   title,

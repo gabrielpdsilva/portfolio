@@ -71,8 +71,6 @@ function HighlightCard({ item, onClick }: HighlightCardProps) {
   const { t } = useTranslation()
   const { title, src } = item
 
-  const iconColor = 'blue'
-
   return (
     <Card>
       <Card.Title>{title}</Card.Title>

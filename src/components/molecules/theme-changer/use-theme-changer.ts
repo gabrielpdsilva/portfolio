@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { Theme } from '../../../types'
-import { defaultSettings } from '../../../constants/settings'
+import { Theme } from '../../../config/theme/type'
+import { config } from '../../../config'
 
 export function useThemeChanger() {
-  const { dark, light } = defaultSettings.theme
+  const { dark, light } = config.theme
 
   const [theme, setTheme] = useState<Theme>(dark)
 

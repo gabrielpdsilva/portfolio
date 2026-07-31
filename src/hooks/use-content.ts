@@ -109,8 +109,8 @@ export function useContent() {
             text: t('principles.about_clean_code.description'),
           },
           {
-            title: t('principles.about_learning.title'),
-            text: t('principles.about_learning.description'),
+            title: t('principles.about_ai.title'),
+            text: t('principles.about_ai.description'),
           },
           {
             title: t('principles.about_tests.title'),
@@ -121,8 +121,8 @@ export function useContent() {
             text: t('principles.about_principles.description'),
           },
           {
-            title: t('principles.about_ai.title'),
-            text: t('principles.about_ai.description'),
+            title: t('principles.about_learning.title'),
+            text: t('principles.about_learning.description'),
           },
         ],
       },
