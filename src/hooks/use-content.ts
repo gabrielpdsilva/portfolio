@@ -17,6 +17,8 @@ import { Database } from '../components/icons/stack/database'
 import { useMemo } from 'react'
 import { Claude } from '../components/icons/techs/claude'
 import { Mongo } from '../components/icons/techs/mongo'
+import { Figma } from '../components/icons/techs/figma'
+import { NextJS } from '../components/icons/techs/nextjs'
 
 export function useContent() {
   const { t } = useTranslation()
@@ -87,15 +89,17 @@ export function useContent() {
         { name: 'Git', Icon: Git },
         { name: 'JavaScript', Icon: Javascript },
         { name: 'TypeScript', Icon: Typescript },
-        { name: 'React', Icon: React },
         { name: 'React Native', Icon: ReactNative },
+        { name: 'React', Icon: React },
+        { name: 'NextJS', Icon: NextJS },
         { name: 'NestJS', Icon: NestJS },
         { name: 'Jest', Icon: Jest },
+        { name: 'Angular', Icon: Angular },
         { name: 'Firebase', Icon: Firebase },
         { name: 'Postgres', Icon: Postgres },
-        { name: 'Angular', Icon: Angular },
-        { name: 'Claude', Icon: Claude },
         { name: 'MongoDB', Icon: Mongo },
+        { name: 'Claude', Icon: Claude },
+        { name: 'Figma', Icon: Figma },
       ],
       principles: {
         title: t('principles.title'),
