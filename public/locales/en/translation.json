@@ -2,85 +2,105 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Software Developer",
-    "detail": "Adding value to the world through smart solutions"
+    "detail": "Currently studying Kotlin for Android and System Design"
   },
   "principles": {
-    "title": "Key principles",
+    "title": "Core principles",
     "about_valuable_features": {
-      "title": "Value-driven development",
-      "description": "I build features that matter—aligned with business goals, continuously delivered, and validated with real users."
+      "title": "Business-focused",
+      "description": "My goal is to build solutions that drive business growth and create a positive impact on people's lives."
     },
     "about_clean_code": {
-      "title": "Clean, scalable code",
-      "description": "I craft well-structured applications with flexible, maintainable, and scalable architecture."
+      "title": "Clean and scalable code",
+      "description": "I build well-structured applications with flexible architectures that are easy to maintain."
     },
     "about_learning": {
       "title": "Continuous learning",
-      "description": "I don't always know the answer—but I know how to find it, and I will. Growth is part of my process."
+      "description": "I don't always know the answer—but I know how to find it, and I will. Continuous improvement is part of who I am."
     },
     "about_tests": {
       "title": "Unit testing",
-      "description": "Reliable code is tested code. I treat tests as part of the development process."
-    },
-    "about_ux": {
-      "title": "Friendly and intuitive UX/UI",
-      "description": "I create interfaces that are easy to use, visually clear, and grounded in UX/UI best practices."
+      "description": "Reliable code is tested code. I consider testing an essential part of the development process."
     },
     "about_principles": {
       "title": "Principles over trends",
-      "description": "Trends fade, but engineering principles remain."
+      "description": "Technologies change. Solid engineering principles remain."
+    },
+    "about_ai": {
+      "title": "AI as a tool",
+      "description": "I use AI to speed up repetitive tasks in my workflow while carefully reviewing and validating its output, ensuring both efficiency and quality."
     }
   },
   "highlights": {
     "title": "Highlights",
     "details_button": "Details",
-    "more_button": "More",
+    "more_button": "Show more",
     "close_button": "Close",
     "dashboard_delfos": {
       "name": "Dashboard Delfos",
-      "description": "Lorem ipsum"
+      "description": "A platform for monitoring assets across multiple energy sectors, including wind, solar, and hydroelectric power."
     },
     "monitor_delfos": {
       "name": "Monitor Delfos",
-      "description": "App for monitoring solar assets."
+      "description": "An application for monitoring solar energy assets, providing both real-time and historical data visualization."
     },
     "inspector": {
       "name": "Delfos Inspector",
-      "description": "Offline app for filling out inspection checklists."
+      "description": "An application for field engineers to complete inspections and attach media, with offline support and synchronization."
     },
     "axis": {
       "name": "Axis",
-      "description": "Offline app for pilots, focused on flight registration."
+      "description": "An application designed to assist pilots in their daily operations, with a strong focus on offline functionality."
     },
     "vowe": {
       "name": "Vowe Air",
-      "description": "App for scheduling flights within a monthly hour package."
+      "description": "An application for booking flights within a monthly flight-hour subscription."
     },
     "selaz": {
       "name": "Selaz",
-      "description": "Lorem ipsum"
+      "description": "An application that allows healthcare professionals to monitor patients undergoing treatment with the Quartz Hexapod device."
+    }
+  },
+  "professional": {
+    "title": "Professional experience",
+    "delfos": {
+      "title": "Full Stack Developer",
+      "subtitle": "Delfos Energy - Barcelona, Spain (08/2021 - Present)",
+      "details": "Developed Inspector 3.0, replacing a legacy system with a modern, intuitive, and maintainable application. Focused on offline inspection workflows, the app supports custom forms, image, audio, and signature attachments; developed Delfos Monitor, an application for monitoring solar energy assets; implemented a deployment optimization that reduced release times and improved the development workflow; serve as the team's primary code reviewer, helping maintain code quality and support the team's technical growth; leverage Claude Code to streamline my workflow—from task planning and AI-assisted code generation (carefully reviewed and validated) to documentation that helps QA engineers ensure software quality."
+    },
+    "proaero": {
+      "title": "Freelance Full Stack Developer",
+      "subtitle": "ProAero - São Paulo, Brazil (10/2023 - 02/2025)",
+      "details": "Contributed to the development of Axis, an offline application for pilots focused on flight management, while also working on the web platform, API, and database; led the development of Vowe Air, a flight booking application based on monthly flight-hour packages, from the initial architecture to feature implementation, while also contributing to the web platform, API, and database; migrated the Quartz Hexapod Selaz application to a modern architecture with updated components and dependencies."
+    },
+    "terapia_de_bolso": {
+      "title": "Freelance Full Stack Developer",
+      "subtitle": "Terapia de Bolso - Rondônia, Brazil (02/2023 - 09/2023)",
+      "details": "Replaced the PDF generation library with a lighter and more efficient solution capable of converting HTML into searchable PDFs with real text instead of static images, significantly reducing file sizes and improving readability; developed new features for the platform, contributing to its continuous evolution; fixed bugs that directly impacted the user experience, including inconsistent pagination and mobile responsiveness issues."
+    },
+    "cernovapps": {
+      "title": "Mobile Development Intern",
+      "subtitle": "CernovApps - São Paulo, Brazil (03/2021 - 07/2021)",
+      "details": "Contributed to the development of the Quartz Hexapod Selaz application, featuring an intuitive interface for monitoring patient treatment; developed new features and fixed bugs in a React dashboard; assisted in developing new API features, fixing bugs, and completely restructuring the API documentation."
     }
   },
   "academic": {
-    "title": "Academic trajectory",
-    "subtitle": "My main academic achievements",
+    "title": "Education",
     "technologist_systems_analysis_development": {
-      "title": "Technologist in Systems Analysis and Development",
-      "subtitle": "FATEC da Zona Leste (2019-2022)",
-      "course_conclusion": "TCC: an application based on psychological help, which connects volunteers to anonymous people with psychological problems.",
-      "certificate": "I received a certificate of excellence for my performance in the course."
+      "title": "Associate Degree in Systems Analysis and Development",
+      "subtitle": "FATEC Zona Leste (2019-2022)",
+      "details": "Final project: a psychological support application connecting volunteers with anonymous individuals seeking emotional support. Awarded a Certificate of Excellence for academic performance."
     },
     "english": {
       "title": "English Course",
-      "subtitle": "FISK Centro de Ensino (2018-2020)",
-      "course_conclusion": "MET (level B2): I improved my English skills, which allowed me to pass the MET (Michigan English Test)."
+      "subtitle": "FISK Language School (2018-2020)",
+      "details": "Improved my English proficiency, successfully passing the Michigan English Test (MET) and achieving a B2 level."
     },
     "technician_systems_development": {
-      "title": "Technician in Systems Development",
-      "subtitle": "ETEC da Zona Leste (2018 - 2019)",
-      "course_conclusion": "TCC: an application for tabletop RPG sessions.",
-      "certificate": "I received a certificate of excellence for my performance in the class."
+      "title": "Technical Degree in Systems Development",
+      "subtitle": "ETEC Zona Leste (2018-2019)",
+      "details": "Final project: an application for tabletop RPG sessions. Awarded a Certificate of Excellence for outstanding academic performance."
     }
   },
-  "footer": "Template available under MIT License"
+  "footer": "Template available under the MIT License"
 }
