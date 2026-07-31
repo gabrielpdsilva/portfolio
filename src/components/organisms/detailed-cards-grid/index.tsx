@@ -30,7 +30,7 @@ export function DetailedCardsGrid({ items }: DetailedCardsGridProps) {
               <img
                 src={selectedItem.src}
                 alt={selectedItem.title}
-                className="mx-auto max-h-[70vh] max-w-[80vw] rounded-lg object-contain"
+                className="py-4 mx-auto max-h-[70vh] max-w-[80vw]"
               />
 
               <p className="mt-4">{selectedItem.subtitle}</p>

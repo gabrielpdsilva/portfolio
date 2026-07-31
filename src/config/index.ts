@@ -6,7 +6,7 @@ export const config: Config = {
     light: 'silk',
     dark: 'dracula',
   },
-  language: 'pt-BR',
+  language: 'en',
 }
 
 type Config = {

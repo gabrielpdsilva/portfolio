@@ -37,7 +37,7 @@ export function useContent() {
             title: t('highlights.dashboard_delfos.name'),
             subtitle: t('highlights.dashboard_delfos.description'),
             src: 'assets/projects/dashboard_delfos.png',
-            url: 'https://play.google.com/store/apps/details?id=com.delfosim.monitordelfosapp',
+            url: 'https://www.delfos.energy',
           },
           {
             title: t('highlights.monitor_delfos.name'),
