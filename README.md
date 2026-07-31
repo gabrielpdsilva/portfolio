@@ -8,6 +8,15 @@ Feel free to use this portfolio template for your own projects! Read the **How t
 
 Check out my [portfolio](https://gabrielpdsilva.github.io/portfolio/) built with this template.
 
+## ✨ Features
+
+- 📱 Responsive design
+- 🌍 Easy localization (i18n)
+- 🌙 Light and dark themes
+- 🎨 Easy to customize
+- 🧩 Reusable components
+- 🚀 Ready for GitHub Pages deployment
+
 ## How to use
 
 To customize the portfolio, simply update the following files and folders:
@@ -96,6 +105,8 @@ Once the deployment finishes, your portfolio will be available at the URL specif
 ## 🙏 Special thanks
 
 - https://flowbite.com/icons/
+
+- https://www.svgrepo.com/
 
 ## 📄 License
 
