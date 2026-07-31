@@ -66,7 +66,7 @@ export function useContent() {
           {
             title: t('highlights.selaz.name'),
             subtitle: t('highlights.selaz.description'),
-            src: 'assets/projects/vowe.png',
+            src: 'assets/projects/selaz.png',
             url: 'https://play.google.com/store/apps/details?id=com.selaz.quartzhexapod',
           },
         ],
