@@ -1,11 +1,11 @@
-import { Footer } from '../../components/organisms/footer'
-import { Section } from '../../components/molecules/section'
-import { SimpleCardsGrid } from '../../components/organisms/simple-cards-grid'
-import { BoxOverview } from '../../components/organisms/box-overview'
-import { Header } from '../../components/organisms/header'
-import { DetailedCardsGrid } from '../../components/organisms/detailed-cards-grid'
-import { useContent } from '../../hooks/use-content'
-import { Timeline } from '../../components/organisms/timeline'
+import { Footer } from '@/components/organisms/footer'
+import { Section } from '@/components/molecules/section'
+import { SimpleCardsGrid } from '@/components/organisms/simple-cards-grid'
+import { BoxOverview } from '@/components/organisms/box-overview'
+import { Header } from '@/components/organisms/header'
+import { DetailedCardsGrid } from '@/components/organisms/detailed-cards-grid'
+import { useContent } from '@/hooks/use-content'
+import { Timeline } from '@/components/organisms/timeline'
 
 export function Portfolio() {
   const {

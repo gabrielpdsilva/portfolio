@@ -1,4 +1,4 @@
-import { useContent } from '../../../hooks/use-content'
+import { useContent } from '@/hooks/use-content'
 
 export function Footer() {
   const { socialMedias, footer } = useContent()

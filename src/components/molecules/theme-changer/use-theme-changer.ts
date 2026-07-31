@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Theme } from '../../../config/theme/type'
-import { config } from '../../../config'
+import { Theme } from '@/config/theme/type'
+import { config } from '@/config'
 
 export function useThemeChanger() {
   const { dark, light } = config.theme

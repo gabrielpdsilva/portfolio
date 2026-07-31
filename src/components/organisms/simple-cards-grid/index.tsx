@@ -1,4 +1,4 @@
-import { Card } from '../../molecules/card'
+import { Card } from '@/components/molecules/card'
 
 export function SimpleCardsGrid({ items }: SimpleCardsGridProps) {
   return (

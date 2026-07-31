@@ -1,5 +1,5 @@
-import { ThemeChanger } from '../../molecules/theme-changer'
-import { TranslationChanger } from '../../molecules/translation-changer'
+import { ThemeChanger } from '@/components/molecules/theme-changer'
+import { TranslationChanger } from '@/components/molecules/translation-changer'
 
 export function Header() {
   return (

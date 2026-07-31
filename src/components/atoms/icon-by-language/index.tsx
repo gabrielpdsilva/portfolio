@@ -1,6 +1,6 @@
-import { Language } from '../../../types'
-import { Brazil } from '../../icons/flags/brazil'
-import { UnitedStates } from '../../icons/flags/united-states'
+import { Language } from '@/config/locale/type'
+import { Brazil } from '@/components/icons/flags/brazil'
+import { UnitedStates } from '@/components/icons/flags/united-states'
 
 export function IconByLanguage({ language }: IconByLanguageProps) {
   switch (language) {

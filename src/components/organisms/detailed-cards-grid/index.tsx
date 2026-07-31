@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Card } from '../../molecules/card'
+import { Card } from '@/components/molecules/card'
 import { useState } from 'react'
 
 export function DetailedCardsGrid({ items }: DetailedCardsGridProps) {

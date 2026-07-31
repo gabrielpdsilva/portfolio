@@ -1,8 +1,5 @@
 import { ReactNode } from 'react'
 
-const ICON_TOOLTIP_CLASSNAME =
-  'tooltip transform transition duration-500 hover:scale-120'
-
 export function BoxOverview({
   title,
   subtitle,
@@ -39,6 +36,9 @@ export function BoxOverview({
     </div>
   )
 }
+
+const ICON_TOOLTIP_CLASSNAME =
+  'tooltip transform transition duration-500 hover:scale-120'
 
 function PrimaryIcons({ icons }: IconsProps) {
   return (
