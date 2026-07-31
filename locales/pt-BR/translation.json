@@ -2,17 +2,17 @@
   "overview": {
     "title": "Gabriel Pimentel",
     "subtitle": "Desenvolvedor de Software",
-    "detail": "Agregando valor ao mundo através de soluções inteligentes"
+    "detail": "Atualmente estudando Kotlin para Android e System Design"
   },
   "principles": {
     "title": "Princípios chave",
     "about_valuable_features": {
-      "title": "Desenvolvimento guiado por valor",
-      "description": "Crio funcionalidades que realmente importam—alinhadas aos objetivos de negócio, entregues continuamente e validadas com usuários reais."
+      "title": "Foco no negócio",
+      "description": "Meu objetivo é criar soluções que impulsionem o crescimento da organização e gerem um impacto positivo na vida das pessoas."
     },
     "about_clean_code": {
       "title": "Código limpo e escalável",
-      "description": "Desenvolvo aplicações bem estruturadas, com arquitetura flexível, de fácil manutenção e pronta para escalar."
+      "description": "Desenvolvo aplicações bem estruturadas, com arquitetura flexível e de fácil manutenção."
     },
     "about_learning": {
       "title": "Aprendizado contínuo",
@@ -22,50 +22,84 @@
       "title": "Testes unitários",
       "description": "Código confiável é código testado. Trato os testes como parte essencial do desenvolvimento."
     },
-    "about_ux": {
-      "title": "UX/UI amigáveis e intuitivas",
-      "description": "Crio interfaces fáceis de usar, visualmente claras e baseadas em boas práticas de UX/UI."
-    },
     "about_principles": {
       "title": "Princípios acima de tendências",
       "description": "Tecnologias mudam. Princípios sólidos de engenharia permanecem."
+    },
+    "about_ai": {
+      "title": "IA como ferramenta",
+      "description": "Utilizo IA para agilizar tarefas repetitivas do meu fluxo de trabalho, além de validar os outputs, garantindo velocidade e ao mesmo tempo qualidade do que é entregue."
     }
   },
   "highlights": {
     "title": "Destaques",
-    "detail": "Ver mais",
+    "details_button": "Detalhes",
+    "more_button": "Ver mais",
+    "close_button": "Fechar",
+    "dashboard_delfos": {
+      "name": "Dashboard Delfos",
+      "description": "Uma plataforma para monitoramento de ativos de diferentes frentes de energia, como eólica, solar e hídrica."
+    },
+    "monitor_delfos": {
+      "name": "Monitor Delfos",
+      "description": "Aplicativo para monitoramento de ativos de energia solar, permitindo visualização tanto de dados realtime quanto dados históricos."
+    },
     "inspector": {
       "name": "Delfos Inspector",
-      "description": "App offline para preencher checklists de inspeção."
+      "description": "Aplicativo para preenchimento de inspeções e anexo de mídia para engenheiros em campo, com suporte offline e sincronização."
     },
     "axis": {
       "name": "Axis",
-      "description": "App offline para pilotos, focado no cadastro de voos."
+      "description": "Aplicativo para auxiliar pilotos em seu dia-a-dia na aeronave, com foco no funcionamento offline."
     },
     "vowe": {
       "name": "Vowe Air",
-      "description": "App para agendamento de voos dentro de um pacote de horas mensais."
+      "description": "Aplicativo para agendamento de voos dentro de um pacote de horas mensais."
+    },
+    "selaz": {
+      "name": "Selaz",
+      "description": "Aplicativo que permite a médicos e pacientes acompanhar tratamentos realizados com o dispositivo Quartz Hexapod."
+    }
+  },
+  "professional": {
+    "title": "Carreira profissional",
+    "delfos": {
+      "title": "Desenvolvedor Full Stack",
+      "subtitle": "Delfos Energy - Barcelona, Espanha (08/2021 - atualmente)",
+      "details": "Desenvolvi o app Inspector 3.0, substituindo um sistema legado por uma versão moderna, intuitiva e de fácil manutenção. Com foco em registrar inspeções offline, o app permite anexar imagens, áudios, assinaturas e preencher formulários customizados; desenvolvi o app Delfos Monitor, responsável por ajudar na monitoração de ativos de energia solar; implementei um sistema que otimizou o fluxo de deploy, reduzindo o tempo de release e aumentando a eficiência do time de desenvolvimento; atuo como principal revisor de código do time, garantindo a qualidade da aplicação e contribuindo para a evolução técnica da equipe; utilizo Claude Code para agilizar meu fluxo de trabalho, desde a concepção inicial da tarefa, o código gerado (revisado e validado) até a finalização da tarefa, automatizando documentações que auxiliem os QAs para garantir a qualidade."
+    },
+    "proaero": {
+      "title": "Desenvolvedor Full Stack (autônomo)",
+      "subtitle": "ProAero - São Paulo, Brasil (10/2023 - 02/2025)",
+      "details": "Contribuí no desenvolvimento do app Axis, aplicativo offline para pilotos focado no cadastro de voos, atuando também na parte web, API e banco de dados; fui responsável pelo app Vowe Air (app para agendamento de voos dentro de um pacote de horas mensais), desde a concepção da arquitetura inicial até a implementação das funcionalidades, além de colaborar no desenvolvimento da parte web, API e banco de dados; fui responsável pela migração do app Quartz Hexapod Selaz para uma arquitetura com componentes e dependências atualizadas."
+    },
+    "terapia_de_bolso": {
+      "title": "Desenvolvedor Full Stack (autônomo)",
+      "subtitle": "Terapia de Bolso - Rondônia, Brasil (02/2023 - 09/2023)",
+      "details": "Substituí a biblioteca de geração de PDF por uma solução mais leve e eficiente, capaz de converter HTML em PDFs com conteúdo em texto real (em vez de imagem estática), reduzindo significativamente o tamanho dos arquivos e melhorando a legibilidade do conteúdo; desenvolvi novas funcionalidades para a plataforma, contribuindo para a evolução contínua do produto; corrigi bugs e problemas que afetavam diretamente a experiência dos usuários, como paginação inconsistente e responsividade em dispositivos móveis."
+    },
+    "cernovapps": {
+      "title": "Estagiário em Desenvolvimento Mobile",
+      "subtitle": "CernovApps - São Paulo, Brasil (03/2021 - 07/2021)",
+      "details": "Participei do desenvolvimento do app Quartz Hexapod Selaz, sistema com uma interface intuitiva para o monitoramento do tratamento dos pacientes; desenvolvi novas funcionalidades e corrigi bugs em um dashboard em React; auxiliei no desenvolvimento de novas funcionalidades e na correção de bugs de uma API, além de ser responsável pela reestruturação completa de sua documentação."
     }
   },
   "academic": {
     "title": "Trajetória acadêmica",
-    "subtitle": "Minhas principais conquistas acadêmicas",
     "technologist_systems_analysis_development": {
       "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
       "subtitle": "FATEC da Zona Leste (2019-2022)",
-      "course_conclusion": "TCC: aplicativo baseado em ajuda psicológica, que conecta voluntários a pessoas anônimas com problemas psicológicos.",
-      "certificate": "Adquiri certificado de excelência pelo meu desempenho no curso."
+      "details": "TCC: aplicativo baseado em ajuda psicológica, que conecta voluntários a pessoas anônimas com problemas psicológicos. Adquiri certificado de excelência pelo meu desempenho no curso."
     },
     "english": {
       "title": "Curso de Inglês",
       "subtitle": "FISK Centro de Ensino (2018-2020)",
-      "course_conclusion": "MET (nível B2): aprimorei minhas habilidades no inglês, o que me possibilitou passar no MET (Michigan English Test)."
+      "details": "Aprimorei minhas habilidades no inglês, o que me possibilitou passar no MET (Michigan English Test) e adquirir o nível B2."
     },
     "technician_systems_development": {
       "title": "Técnico em Desenvolvimento de Sistemas",
       "subtitle": "ETEC da Zona Leste (2018 - 2019)",
-      "course_conclusion": "TCC: um aplicativo para sessões de RPG de mesa.",
-      "certificate": "Adquiri certificado de excelência pelo meu desempenho na turma."
+      "details": "TCC: um aplicativo para sessões de RPG de mesa. Adquiri certificado de excelência pelo meu desempenho na turma."
     }
   },
   "footer": "Template disponível sob a Licença MIT"
