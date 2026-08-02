@@ -74,7 +74,7 @@
       "details": "Contribuí no desenvolvimento do app Axis, aplicativo offline para pilotos focado no cadastro de voos, atuando também na parte web, API e banco de dados; fui responsável pelo app Vowe Air (app para agendamento de voos dentro de um pacote de horas mensais), desde a concepção da arquitetura inicial até a implementação das funcionalidades, além de colaborar no desenvolvimento da parte web, API e banco de dados; fui responsável pela migração do app Quartz Hexapod Selaz para uma arquitetura com componentes e dependências atualizadas."
     },
     "terapia_de_bolso": {
-      "title": "Desenvolvedor Full Stack (autônomo)",
+      "title": "Desenvolvedor Front-end (autônomo)",
       "subtitle": "Terapia de Bolso - Rondônia, Brasil (02/2023 - 09/2023)",
       "details": "Substituí a biblioteca de geração de PDF por uma solução mais leve e eficiente, capaz de converter HTML em PDFs com conteúdo em texto real (em vez de imagem estática), reduzindo significativamente o tamanho dos arquivos e melhorando a legibilidade do conteúdo; desenvolvi novas funcionalidades para a plataforma, contribuindo para a evolução contínua do produto; corrigi bugs e problemas que afetavam diretamente a experiência dos usuários, como paginação inconsistente e responsividade em dispositivos móveis."
     },
