@@ -199,10 +199,19 @@ export function useContent() {
           Icon: LinkedIn,
         },
       ],
-      footer: t('footer'),
+      about: {
+        release_date: getReleaseText(),
+        license: t('footer'),
+      },
     }),
     [t]
   )
 
   return content
+}
+
+function getReleaseText(): string {
+  const originalReleaseYear = 2025
+  const currentYear = new Date().getFullYear()
+  return `© ${originalReleaseYear} - ${currentYear}`
 }

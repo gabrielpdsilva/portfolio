@@ -1,32 +1,24 @@
-import { useContent } from '@/hooks/use-content'
+import {
+  SocialIcons,
+  SocialIconsItem,
+} from '@/components/molecules/social-icons'
 
-export function Footer() {
-  const { socialMedias, footer } = useContent()
+export function Footer({ primaryText, secondaryText, iconItems }: FooterProps) {
   return (
     <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content py-2">
       <aside>
-        <p>{getFooterText()}</p>
-        <p>{footer}</p>
+        <p>{primaryText}</p>
+        <p>{secondaryText}</p>
         <div className="flex gap-2">
-          {socialMedias.map(({ name, url, Icon }) => (
-            <a
-              key={name}
-              data-tip={name}
-              href={url}
-              target="_blank"
-              className="tooltip hover:cursor-pointer"
-            >
-              <Icon />
-            </a>
-          ))}
+          <SocialIcons tooltipPosition="top" items={iconItems} />
         </div>
       </aside>
     </footer>
   )
 }
 
-function getFooterText(): string {
-  const originalReleaseYear = 2025
-  const currentYear = new Date().getFullYear()
-  return `© ${originalReleaseYear} - ${currentYear}`
+type FooterProps = {
+  primaryText: string
+  secondaryText: string
+  iconItems: SocialIconsItem[]
 }

@@ -102,5 +102,7 @@
       "details": "Final project: an application for tabletop RPG sessions. Awarded a Certificate of Excellence for outstanding academic performance."
     }
   },
-  "footer": "Template available under the MIT License"
+  "about": {
+    "license": "Template available under the MIT License"
+  }
 }

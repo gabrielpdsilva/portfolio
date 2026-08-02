@@ -16,10 +16,12 @@ export function Portfolio() {
     principles,
     professional,
     academic,
+    socialMedias,
+    about,
   } = useContent()
   return (
     <div>
-      <Header />
+      <Header iconItems={socialMedias} />
       <div className="hero bg-base-200 min-h-screen">
         <div className="space-y-8 p-4">
           <div className="flex justify-center">
@@ -47,7 +49,11 @@ export function Portfolio() {
           </Section>
         </div>
       </div>
-      <Footer />
+      <Footer
+        primaryText={about.release_date}
+        secondaryText={about.license}
+        iconItems={socialMedias}
+      />
     </div>
   )
 }
