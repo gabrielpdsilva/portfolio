@@ -74,7 +74,7 @@
       "details": "Contributed to the development of Axis, an offline application for pilots focused on flight management, while also working on the web platform, API, and database; led the development of Vowe Air, a flight booking application based on monthly flight-hour packages, from the initial architecture to feature implementation, while also contributing to the web platform, API, and database; migrated the Quartz Hexapod Selaz application to a modern architecture with updated components and dependencies."
     },
     "terapia_de_bolso": {
-      "title": "Freelance Full Stack Developer",
+      "title": "Freelance Front-end Developer",
       "subtitle": "Terapia de Bolso - Rondônia, Brazil (02/2023 - 09/2023)",
       "details": "Replaced the PDF generation library with a lighter and more efficient solution capable of converting HTML into searchable PDFs with real text instead of static images, significantly reducing file sizes and improving readability; developed new features for the platform, contributing to its continuous evolution; fixed bugs that directly impacted the user experience, including inconsistent pagination and mobile responsiveness issues."
     },
