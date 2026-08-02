@@ -19,6 +19,7 @@ import { Claude } from '@/components/icons/techs/claude'
 import { Mongo } from '@/components/icons/techs/mongo'
 import { Figma } from '@/components/icons/techs/figma'
 import { NextJS } from '@/components/icons/techs/nextjs'
+import { LinkedIn } from '@/components/icons/social-medias/linkedin'
 
 export function useContent() {
   const { t } = useTranslation()
@@ -191,6 +192,11 @@ export function useContent() {
           name: 'Stack Overflow',
           url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
           Icon: StackOverflow,
+        },
+        {
+          name: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/gabriel-pimentel-da-silva',
+          Icon: LinkedIn,
         },
       ],
       footer: t('footer'),
