@@ -201,7 +201,7 @@ export function useContent() {
       ],
       about: {
         release_date: getReleaseText(),
-        license: t('footer'),
+        license: t('about.license'),
       },
     }),
     [t]
