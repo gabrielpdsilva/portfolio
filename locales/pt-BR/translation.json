@@ -102,5 +102,7 @@
       "details": "TCC: um aplicativo para sessões de RPG de mesa. Adquiri certificado de excelência pelo meu desempenho na turma."
     }
   },
-  "footer": "Template disponível sob a Licença MIT"
+  "about": {
+    "license": "Template disponível sob a Licença MIT"
+  }
 }
