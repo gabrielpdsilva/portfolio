@@ -20,9 +20,9 @@ export function BoxOverview({
             <h1 className="text-5xl font-bold text-center lg:text-left">
               {title}
             </h1>
-            <div className="font-bold text-2xl py-2 text-center lg:text-left group transition duration-300 text-primary">
+            <div className="font-bold text-2xl py-2 text-center lg:text-left group transition duration-300 text-secondary">
               {subtitle}
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary" />
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-secondary" />
             </div>
             <p className="italic">{detail}</p>
           </div>
