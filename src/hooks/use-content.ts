@@ -20,6 +20,7 @@ import { Mongo } from '@/components/icons/techs/mongo'
 import { Figma } from '@/components/icons/techs/figma'
 import { NextJS } from '@/components/icons/techs/nextjs'
 import { LinkedIn } from '@/components/icons/social-medias/linkedin'
+import { Fork } from '@/components/icons/fork'
 
 export function useContent() {
   const { t } = useTranslation()
@@ -37,37 +38,37 @@ export function useContent() {
           {
             title: t('highlights.dashboard_delfos.name'),
             subtitle: t('highlights.dashboard_delfos.description'),
-            src: 'assets/projects/dashboard_delfos.png',
+            src: 'assets/highlights/dashboard_delfos.png',
             url: 'https://www.delfos.energy',
           },
           {
             title: t('highlights.monitor_delfos.name'),
             subtitle: t('highlights.monitor_delfos.description'),
-            src: 'assets/projects/monitor_delfos.png',
+            src: 'assets/highlights/monitor_delfos.png',
             url: 'https://play.google.com/store/apps/details?id=com.delfosim.monitordelfosapp',
           },
           {
             title: t('highlights.inspector.name'),
             subtitle: t('highlights.inspector.description'),
-            src: 'assets/projects/inspector.png',
+            src: 'assets/highlights/inspector.png',
             url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos',
           },
           {
             title: t('highlights.axis.name'),
             subtitle: t('highlights.axis.description'),
-            src: 'assets/projects/axis.png',
+            src: 'assets/highlights/axis.png',
             url: 'https://play.google.com/store/apps/details?id=aero.flyaxis',
           },
           {
             title: t('highlights.vowe.name'),
             subtitle: t('highlights.vowe.description'),
-            src: 'assets/projects/vowe.png',
+            src: 'assets/highlights/vowe.png',
             url: 'https://play.google.com/store/search?q=vowe&c=apps',
           },
           {
             title: t('highlights.selaz.name'),
             subtitle: t('highlights.selaz.description'),
-            src: 'assets/projects/selaz.png',
+            src: 'assets/highlights/selaz.png',
             url: 'https://play.google.com/store/apps/details?id=com.selaz.quartzhexapod',
           },
         ],
@@ -184,19 +185,30 @@ export function useContent() {
       },
       socialMedias: [
         {
+          Icon: GitHub,
+
           name: 'GitHub',
           url: 'https://github.com/gabrielpdsilva',
-          Icon: GitHub,
         },
         {
+          Icon: StackOverflow,
+
           name: 'Stack Overflow',
           url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
-          Icon: StackOverflow,
         },
         {
-          name: 'LinkedIn',
-          url: 'https://www.linkedin.com/in/gabriel-pimentel-da-silva',
           Icon: LinkedIn,
+
+          name: 'LinkedIn',
+
+          url: 'https://www.linkedin.com/in/gabriel-pimentel-da-silva',
+        },
+        {
+          Icon: Fork,
+
+          name: 'Fork Template',
+
+          url: 'https://github.com/gabrielpdsilva/portfolio',
         },
       ],
       about: {
