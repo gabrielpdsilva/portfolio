@@ -190,6 +190,11 @@ export function useContent() {
           url: 'https://github.com/gabrielpdsilva',
         },
         {
+          Icon: Fork,
+          name: 'Fork Template',
+          url: 'https://github.com/gabrielpdsilva/portfolio',
+        },
+        {
           Icon: StackOverflow,
           name: 'Stack Overflow',
           url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
@@ -198,11 +203,6 @@ export function useContent() {
           Icon: LinkedIn,
           name: 'LinkedIn',
           url: 'https://www.linkedin.com/in/gabriel-pimentel-da-silva',
-        },
-        {
-          Icon: Fork,
-          name: 'Fork Template',
-          url: 'https://github.com/gabrielpdsilva/portfolio',
         },
       ],
       about: {

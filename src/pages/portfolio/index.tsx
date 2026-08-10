@@ -50,8 +50,8 @@ export function Portfolio() {
         </div>
       </div>
       <Footer
-        primaryText={about.release_date}
-        secondaryText={about.license}
+        leftText={about.release_date}
+        rightText={about.license}
         iconItems={socialMedias}
       />
     </div>
