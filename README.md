@@ -110,6 +110,8 @@ Once the deployment finishes, your portfolio will be available at the URL specif
 
 - https://www.svgrepo.com/
 
+- https://thesvg.org/
+
 ## 📄 License
 
 This project is licensed under the [MIT License](./LICENSE).
