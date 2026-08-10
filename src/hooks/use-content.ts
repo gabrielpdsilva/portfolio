@@ -186,28 +186,22 @@ export function useContent() {
       socialMedias: [
         {
           Icon: GitHub,
-
           name: 'GitHub',
           url: 'https://github.com/gabrielpdsilva',
         },
         {
           Icon: StackOverflow,
-
           name: 'Stack Overflow',
           url: 'https://stackoverflow.com/users/12829458/gabrielpdsilva',
         },
         {
           Icon: LinkedIn,
-
           name: 'LinkedIn',
-
           url: 'https://www.linkedin.com/in/gabriel-pimentel-da-silva',
         },
         {
           Icon: Fork,
-
           name: 'Fork Template',
-
           url: 'https://github.com/gabrielpdsilva/portfolio',
         },
       ],
