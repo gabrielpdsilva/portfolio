@@ -1,13 +1,13 @@
 import { ReactNode } from 'react'
 
-export function SocialIcons({ tooltipPosition, items }: SocialIconsProps) {
+export function SocialIcons({ items }: SocialIconsProps) {
   return items.map(({ name, url, Icon }) => (
     <a
       key={name}
       data-tip={name}
       href={url}
       target="_blank"
-      className={`tooltip tooltip-${tooltipPosition} hover:cursor-pointer`}
+      className={`tooltip tooltip-bottom hover:cursor-pointer`}
     >
       <Icon />
     </a>
@@ -16,7 +16,6 @@ export function SocialIcons({ tooltipPosition, items }: SocialIconsProps) {
 
 type SocialIconsProps = {
   items: SocialIconsItem[]
-  tooltipPosition: 'top' | 'bottom'
 }
 
 export type SocialIconsItem = {

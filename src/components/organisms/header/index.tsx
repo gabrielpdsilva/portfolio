@@ -9,7 +9,7 @@ export function Header({ iconItems }: SocialIconsProps) {
   return (
     <div className="relative flex items-center justify-end bg-base-200">
       <div className="absolute left-1/2 -translate-x-1/2">
-        <SocialIcons tooltipPosition="bottom" items={iconItems} />
+        <SocialIcons items={iconItems} />
       </div>
 
       <div className="flex items-center gap-2">
