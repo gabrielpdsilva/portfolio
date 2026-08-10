@@ -1,12 +1,12 @@
 # Portfolio
 
-A simple yet effective portfolio template for showcasing your work. It is easily customizable, so you can fork or clone this repository and replace the content with your own.
+A simple yet customizable portfolio template for showcasing your work. Fork or clone the repository and adapt it to your needs!
 
-Feel free to use this portfolio template for your own projects! Read the **How to use** section below for more details. Attribution is not required, but a link back or credit would be greatly appreciated. 🚀
+⭐ If you find it useful, consider giving it a star. Attribution isn't required, but a link back or credit would be greatly appreciated.
 
 ## 🌐 Live Demo
 
-Check out my [portfolio](https://gabrielpdsilva.github.io/portfolio/) built with this template.
+Check out the [live demo](https://gabrielpdsilva.github.io/portfolio/) built with this template.
 
 ## ✨ Features
 
@@ -103,6 +103,8 @@ The `deploy` script automatically builds the project and publishes the contents 
 Once the deployment finishes, your portfolio will be available at the URL specified in the `homepage` field.
 
 ## 🙏 Special thanks
+
+- https://daisyui.com/
 
 - https://flowbite.com/icons/
 
