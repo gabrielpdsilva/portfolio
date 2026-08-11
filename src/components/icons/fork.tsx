@@ -3,7 +3,7 @@ import { TEC_ICON_SIZE } from './constants'
 export function Fork() {
   return (
     <svg
-      className="w-6 h-6 text-gray-800 dark:text-white"
+      className="w-6 h-6 text-base-content"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       width={TEC_ICON_SIZE}

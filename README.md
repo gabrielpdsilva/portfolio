@@ -29,7 +29,7 @@ Store your images here, such as your avatar, project screenshots, and other stat
 
 Update the translation keys and localized text for your portfolio.
 
-### `src/use-content.ts`
+### `src/hooks/use-content.ts`
 
 This file contains the portfolio data (projects, experience, skills, etc.).
 
