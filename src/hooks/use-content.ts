@@ -54,9 +54,15 @@ export function useContent() {
             url: 'https://play.google.com/store/apps/details?id=com.inspector3.delfos',
           },
           {
-            title: t('highlights.axis.name'),
-            subtitle: t('highlights.axis.description'),
-            src: 'assets/highlights/axis.png',
+            title: t('highlights.axis_web.name'),
+            subtitle: t('highlights.axis_web.description'),
+            src: 'assets/highlights/axis_dashboard.png',
+            url: 'https://flyaxis.aero',
+          },
+          {
+            title: t('highlights.axis_mobile.name'),
+            subtitle: t('highlights.axis_mobile.description'),
+            src: 'assets/highlights/axis_mobile.png',
             url: 'https://play.google.com/store/apps/details?id=aero.flyaxis',
           },
           {

@@ -37,20 +37,24 @@
     "more_button": "Ver mais",
     "close_button": "Fechar",
     "dashboard_delfos": {
-      "name": "Dashboard Delfos",
+      "name": "Delfos Dashboard",
       "description": "Uma plataforma para monitoramento de ativos de diferentes frentes de energia, como eólica, solar e hídrica."
     },
     "monitor_delfos": {
-      "name": "Monitor Delfos",
+      "name": "Delfos Monitor",
       "description": "Aplicativo para monitoramento de ativos de energia solar, permitindo visualização tanto de dados realtime quanto dados históricos."
     },
     "inspector": {
       "name": "Delfos Inspector",
       "description": "Aplicativo para preenchimento de inspeções e anexo de mídia para engenheiros em campo, com suporte offline e sincronização."
     },
-    "axis": {
-      "name": "Axis",
+    "axis_mobile": {
+      "name": "Axis (Mobile)",
       "description": "Aplicativo para auxiliar pilotos em seu dia-a-dia na aeronave, com foco no funcionamento offline."
+    },
+    "axis_web": {
+      "name": "Axis (Web)",
+      "description": "Uma aplicação web desenvolvida para auxiliar pilotos em suas operações diárias, complementando o aplicativo Axis."
     },
     "vowe": {
       "name": "Vowe Air",
