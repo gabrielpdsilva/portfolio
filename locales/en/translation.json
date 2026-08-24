@@ -37,20 +37,24 @@
     "more_button": "Show more",
     "close_button": "Close",
     "dashboard_delfos": {
-      "name": "Dashboard Delfos",
+      "name": "Delfos Dashboard",
       "description": "A platform for monitoring assets across multiple energy sectors, including wind, solar, and hydroelectric power."
     },
     "monitor_delfos": {
-      "name": "Monitor Delfos",
+      "name": "Delfos Monitor",
       "description": "An application for monitoring solar energy assets, providing both real-time and historical data visualization."
     },
     "inspector": {
       "name": "Delfos Inspector",
       "description": "An application for field engineers to complete inspections and attach media, with offline support and synchronization."
     },
-    "axis": {
-      "name": "Axis",
+    "axis_mobile": {
+      "name": "Axis (Mobile)",
       "description": "An application designed to assist pilots in their daily operations, with a strong focus on offline functionality."
+    },
+    "axis_web": {
+      "name": "Axis (Web)",
+      "description": "A web application designed to assist pilots with their daily operations, complementing the Axis mobile app."
     },
     "vowe": {
       "name": "Vowe Air",
